@@ -1,12 +1,15 @@
 :root {
     --color-primary: #23a9a7;
 }
-
 @font-face {
     font-family: standard;
     src: url('../fonts/Articulat.CF.V2/ArticulatCF-Medium.ttf')
 }
-
+.carousel-image{
+    height: 85vh;
+    margin:auto;
+    width:65vw;
+}
 .mynav {
     background-color: white;
     box-shadow: 0px 10px 30px rgba(216, 216, 216, 0.45)
@@ -104,4 +107,10 @@ body {
     font-size: 1.5rem;
     font-weight: 300;
     list-style-type: disc;
+}
+@media(max-width:768px){
+    .carousel-image{
+        height:50vh;
+        margin:auto;
+    }
 }
