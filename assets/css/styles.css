@@ -30,11 +30,11 @@ body {
 }
 
 .carousel-control-prev {
-    padding-right: 4vw;
+    padding-right: 8vw;
 }
 
 .carousel-control-next {
-    padding-left: 4vw;
+    padding-left: 8vw;
 }
 
 .carousel-control-next-icon:after {
