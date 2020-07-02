@@ -29,6 +29,14 @@ body {
     background-image: none;
 }
 
+.carousel-control-prev {
+    padding-right: 4vw;
+}
+
+.carousel-control-next {
+    padding-left: 4vw;
+}
+
 .carousel-control-next-icon:after {
     content: '>';
     font-size: 30px;
@@ -53,6 +61,11 @@ body {
 .section-header {
     color: var(--color-primary);
     font-weight: bolder;
+}
+
+#mission {
+    line-height: 4rem;
+    font-size: 2.5rem;
 }
 
 .mission-text {
