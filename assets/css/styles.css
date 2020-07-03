@@ -102,7 +102,25 @@ body {
     height: 100%;
     width: 30%;
 }
-
+.img-container {
+    position: relative;
+    width: 200px;
+    height: 300px;
+}
+.img-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+.img-container:hover .after {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+    cursor: pointer;
+}
 .section-text {
     font-size: 1.5rem;
     font-weight: 300;
