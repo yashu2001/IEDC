@@ -103,8 +103,7 @@ body {
 }
 .img-container {
     position: relative;
-    width: 200px;
-    height: 300px;
+    margin-top:5vh;
 }
 .img-container .after {
     position: absolute;
