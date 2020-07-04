@@ -8,7 +8,6 @@
 .carousel-image{
     height: 85vh;
     margin:auto;
-    width:65vw;
 }
 .mynav {
     background-color: white;
@@ -126,6 +125,14 @@ body {
     font-weight: 300;
     list-style-type: disc;
 }
+.download-item{
+    height:70vh !important;
+}
+@media(max-width:1200px){
+    .col-lg-12{
+        margin-bottom: 10vh;
+    }
+}
 @media(max-width:768px){
     .carousel-image{
         height:50vh;
@@ -136,5 +143,11 @@ body {
     }
     .table td{
         padding:5px;
+    }
+    .col-lg-12{
+        margin-bottom:10vh;
+    }
+    .download-item{
+        height:90vh !important;
     }
 }
