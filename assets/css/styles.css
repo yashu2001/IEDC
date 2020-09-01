@@ -5,6 +5,14 @@
     font-family: standard;
     src: url('../fonts/Articulat.CF.V2/ArticulatCF-Medium.ttf')
 }
+.logo{
+	max-height: 35vh !important;
+	margin-top:15vh !important;
+	width:80% !important;
+}
+.logowrap{
+	height:85vh !important;
+}
 .carousel-image{
     height: 85vh;
     margin:auto;
@@ -149,4 +157,12 @@ body {
     .download-item{
         height:90vh !important;
     }
+	.logo{
+		max-height: 15vh !important;
+		margin-top:15vh !important;
+		width:70% !important;
+	}
+	.logowrap{
+	height:50vh !important;
+	}
 }
