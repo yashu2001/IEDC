@@ -166,3 +166,9 @@ body {
 	height:50vh !important;
 	}
 }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    color: #fff !important;
+    border: none;
+    font-weight: bolder;
+}
