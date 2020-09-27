@@ -1,634 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <!--Custome stylesheet-->
-    <link rel="stylesheet" href="./assets//css/styles.css" />
-    <!-- Font stylesheet -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <title>IEDC</title>
-  </head>
-
-  <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top mynav">
-      <a class="navbar-brand" href="#">
-        <div class="brand-container">
-          <img
-            src="./assets/images/iedc-logo.PNG"
-            class="d-none d-sm-none d-md-inline d-lg-inline img-fluid"
-            alt="IEDC LOGO"
-            style="height: 100%; width: 100%;"
-          />
-          <img
-            src="./assets/images/srm-logo.png"
-            class="d-none d-sm-none d-md-inline d-lg-inline img-fluid"
-            alt="SRM LOGO"
-          />
-        </div>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarResponsive"
-        aria-controls="navbarResponsive"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <div class="container">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item p-2">
-              <a class="nav-link" href="index.html">Home </a>
-            </li>
-            <li class="nav-item p-2">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item p-2">
-              <a class="nav-link" href="committees.html">Committees</a>
-            </li>
-            <li class="nav-item active p-2">
-              <a class="nav-link" href="#"
-                >Activities<span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item dropdown p-2">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                More
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="newsStories.html"
-                  >News Stories</a
-                >
-                <a class="dropdown-item" href="downloads.html">Downloads</a>
-              </div>
-            </li>
-            <li class="nav-item p-2">
-              <a
-                class="btn btn-success"
-                href="https://docs.google.com/forms/d/1XbDQSiG4TuzA9AaKa-PGnoOE35Sbb8s8JH9nPV7FZdo/closedform"
-                target="_blank"
-                >Apply Now</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Activities -->
-    <section id="activities">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-auto">
-            <table class="table table-responsive">
-              <thead class="thead-dark">
-                <tr>
-                  <th scope="col">Event</th>
-                  <th scope="col">Date</th>
-                  <th scope="col">Gallery</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    MarchBytes with MSPC
-                  </td>
-                  <td>
-                    14/03/2020-15/03/2020
-                  </td>
-                  <td>
-                    <!-- href="https://drive.google.com/open?id=14v8t1Aey8vEfWcwxw8fk1GcEREXmAmZk" -->
-                    <a
-                      class="btn btn-success"
-                      data-toggle="modal"
-                      href="Modal1"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Engaging for Excellence : Embracing Health Innovation
-                  </td>
-                  <td>
-                    05/03/2020
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Startup Story with SRMKZILLA</td>
-                  <td>08/02/2020</td>
-                  <td>
-                    <!-- href="https://drive.google.com/open?id=16NpcGxd3qA8felC67RoZd3_Q3fGB6_6e" -->
-                    <a
-                      class="btn btn-success"
-                      data-toggle="modal"
-                      href="Modal2"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Kreator Showtime</td>
-                  <td>07/02/2020</td>
-                  <td>
-                    <!-- href="https://drive.google.com/open?id=1F92DVHtRfkTkSr_LLCEGLsgOyGnkza7a" -->
-                    <a
-                      class="btn btn-success"
-                      data-toggle="modal"
-                      href="Modal3"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>API Development Workshop with DSC SRM</td>
-                  <td>02/02/2020</td>
-                  <td>
-                    <!-- href="https://drive.google.com/open?id=15u08u7hVv9snH8u3zsv15qZOo797Xupd" -->
-                    <a
-                      class="btn btn-success"
-                      data-toggle="modal"
-                      href="Modal4"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Demo Day</td>
-                  <td>01/02/2020</td>
-                  <td>
-                    <!-- href="https://drive.google.com/open?id=1Gv9FAYShMxDmEOx4aaZYSXlVWeYwX25X" -->
-                    <a
-                      class="btn btn-success"
-                      data-toggle="modal"
-                      href="Modal5"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Big Data Analytics Workshop with MSPC</td>
-                  <td>01/02/2020</td>
-                  <td>
-                    <!-- href="https://drive.google.com/open?id=15D5elRsfoCL_E4Qx61nLkMz5-hwMnN1Z" -->
-                    <a
-                      class="btn btn-success"
-                      data-toggle="modal"
-                      href="Modal6"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>SIH Internal Hackathon</td>
-                  <td>19/01/2020-21/01/2020</td>
-                  <td>
-                    <!-- href="https://drive.google.com/open?id=1GPY8SSqkrxp5t9NMtT94VFM9pMEvrYAW" -->
-                    <a
-                      class="btn btn-success"
-                      data-toggle="modal"
-                      href="Modal7"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Triumph Talks</td>
-                  <td>11/01/2020</td>
-                  <td>
-                    <!-- href="https://drive.google.com/open?id=1LxpHXa1sUgVBIRKiPG-5bS_0DGn8Livm" -->
-                    <a
-                      class="btn btn-success"
-                      data-toggle="modal"
-                      href="Modal8"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    POC Funding Screening Session
-                  </td>
-                  <td>
-                    09/11/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" data-toggle="modal"
-                    href="Modal9"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Techtalks</td>
-                  <td>19/10/2019</td>
-                  <td>
-                    <!-- href="https://drive.google.com/open?id=1tX7EauHrvpGuIK76owUVN6qznVt2NQgj" -->
-                    <a
-                      class="btn btn-success"
-                      data-toggle="modal"
-                      href="Modal10"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>DSC X - Support</td>
-                  <td>17/10/2020</td>
-                  <td>
-                    <!-- href="https://drive.google.com/open?id=1Twf3TEBWlrwFlar4YpFxI02Rey7Hd-K2" -->
-                    <a
-                      class="btn btn-success"
-                      data-toggle="modal"
-                      href="Modal11"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Innovation Day</td>
-                  <td>15/10/2020</td>
-                  <td>
-                    <!-- href="https://drive.google.com/open?id=16xgw_GpzbjqNGdMtBVuuVi8zfh2_nMjY" -->
-                    <a
-                      class="btn btn-success"
-                      data-toggle="modal"
-                      href="Modal12"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Google ML/AI- Supported</td>
-                  <td>12/10/2020-13/10/2020</td>
-                  <td>
-                    <!-- href="https://drive.google.com/open?id=10jsJ8AUbh2vD0yy1cYmrA5_a55ZHwzGQ" -->
-                    <a
-                      class="btn btn-success"
-                      data-toggle="modal"
-                      href="Modal13"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Design Bootcamp</td>
-                  <td>11/10/2019-13/10/2019</td>
-                  <td>
-                    <!-- href="https://drive.google.com/open?id=1N64ctZkx6Go5zSWiHskvAy6Cx_oCVmDo" -->
-                    <a
-                      class="btn btn-success"
-                      data-toggle="modal"
-                      href="Modal14"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Five Day FDP on " Flexible And RF Printed Electronics"
-                  </td>
-                  <td>
-                    9/10/2019-13/10/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" data-toggle="modal"
-                    href="Modal15"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <tr>
-                    <td>
-                      Tech Talk - II
-                    </td>
-                    <td>
-                      30/9/2019
-                    </td>
-                    <td>
-                      <a class="btn btn-success" data-toggle="modal"
-                      href="Modal16"
-                        >Gallery</a
-                      >
-                    </td>
-                  </tr>
-                  <td>Tech Expo</td>
-                  <td>29/9/2019</td>
-                  <td>
-                    <!-- href="https://drive.google.com/open?id=1r3Qrdn7Sa3iHJ73sbZ3OIwaSUbBQuk8x" -->
-                    <a
-                      class="btn btn-success"
-                      data-toggle="modal"
-                      href="Modal17"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Entrepreneurship Bootcamp</td>
-                  <td>13/9/2019-15/9/2019</td>
-                  <td>
-                    <!-- href="https://drive.google.com/open?id=1r3Qrdn7Sa3iHJ73sbZ3OIwaSUbBQuk8x" -->
-                    <a
-                      class="btn btn-success"
-                      data-toggle="modal"
-                      href="Modal18"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>React with SRMKzilla- Supported</td>
-                  <td>8/9/2019</td>
-                  <td>
-                    <!-- href="https://tinyurl.com/FutureOWeb" -->
-                    <a
-                      class="btn btn-success"
-                      data-toggle="modal"
-                      href="Modal19"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>SRMKzilla Game Design Workshop- Supported</td>
-                  <td>8/9/2019</td>
-                  <td>
-                    <!-- href="https://tinyurl.com/MakeYourFirstVideoGame" -->
-                    <a
-                      class="btn btn-success"
-                      data-toggle="modal"
-                      href="Modal20"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    ShowTime-II
-                  </td>
-                  <td>
-                    7/9/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" data-toggle="modal"
-                    href="Modal21"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    101 workshop on Lathe
-                  </td>
-                  <td>
-                    7/9/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" data-toggle="modal"
-                    href="Modal22"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Creative Arcade
-                  </td>
-                  <td>
-                    7/9/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" data-toggle="modal"
-                    href="Modal23"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Gen Y Inception 4.0
-                  </td>
-                  <td>
-                    7/9/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" data-toggle="modal"
-                    href="Modal24"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Techmux Hackathon
-                  </td>
-                  <td>
-                    23/8/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" data-toggle="modal"
-                    href="Modal25"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Kingston University Bootcamp
-                  </td>
-                  <td>
-                    22/7/2019-23/7/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" data-toggle="modal"
-                    href="Modal26"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Smart India Hackathon
-                  </td>
-                  <td>
-                    8/7/2019-15/7/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" data-toggle="modal"
-                    href="Modal27"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Entrepreneurship Awareness Camp
-                  </td>
-                  <td>
-                    27/06/2019-28/06/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" data-toggle="modal"
-                    href="Modal28"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Triumph Talks - IV
-                  </td>
-                  <td>
-                    2204/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" data-toggle="modal"
-                    href="Modal29"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    ShowTime-I
-                  </td>
-                  <td>
-                    12/04/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" data-toggle="modal"
-                    href="Modal30"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Triumph Talks- III
-                  </td>
-                  <td>
-                    04/04/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" data-toggle="modal"
-                    href="Modal31"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Tech Talks -I
-                  </td>
-                  <td>
-                    02/04/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" data-toggle="modal"
-                    href="Modal32"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Workshop on  " Resident Mentors in Innovation and Incubation Centre"
-                  </td>
-                  <td>
-                    14/3/2019-17/03/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" data-toggle="modal"
-                    href="Modal33"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Triumph Talks- II
-                  </td>
-                  <td>
-                    13/03/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" data-toggle="modal"
-                    href="Modal34"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Triumph Talks- I
-                  </td>
-                  <td>
-                    25/02/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" data-toggle="modal"
-                    href="Modal35"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Entrepreneurs Community Meetup-I
-                  </td>
-                  <td>
-                    09/02/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" data-toggle="modal"
-                    href="Modal36"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Modal 1 starts -->
+<!-- Modal 1 starts -->
     <div
       class="modal fade bd-example-modal-lg"
       id="Modal1"
@@ -645,7 +15,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -722,7 +92,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -799,7 +169,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -876,7 +246,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -953,7 +323,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -1030,7 +400,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -1107,7 +477,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -1184,7 +554,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -1261,7 +631,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -1338,7 +708,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -1415,7 +785,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -1492,7 +862,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -1569,7 +939,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -1646,7 +1016,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -1723,7 +1093,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -1800,7 +1170,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -1877,7 +1247,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -1954,7 +1324,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -2031,7 +1401,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -2108,7 +1478,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -2185,7 +1555,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -2262,7 +1632,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -2339,7 +1709,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -2416,7 +1786,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -2493,7 +1863,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -2570,7 +1940,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -2647,7 +2017,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -2724,7 +2094,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -2801,7 +2171,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -2878,7 +2248,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -2955,7 +2325,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -3032,7 +2402,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -3109,7 +2479,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -3186,7 +2556,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -3263,7 +2633,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -3340,7 +2710,7 @@
               data-dismiss="modal"
               aria-label="Close"
             >
-              <span aria-hidden="true">ï¿½</span>
+              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
@@ -3400,25 +2770,235 @@
         </div>
       </div>
     </div>
-    <!-- End of modal 36 -->
+    <!-- End of modal 36 --><!-- Modal 37 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal37"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="Carousel37" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/images/projects/team 1/one.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 1/two.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#Carousel37"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#Carousel37"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
 
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 37 --><!-- Modal 38 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal38"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="Carousel38" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/images/projects/team 1/one.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 1/two.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#Carousel38"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#Carousel38"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 38 --><!-- Modal 39 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal39"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="Carousel39" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/images/projects/team 1/one.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 1/two.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#Carousel39"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#Carousel39"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 39 -->
