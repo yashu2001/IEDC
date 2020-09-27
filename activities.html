@@ -1,612 +1,1272 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <!--Custome stylesheet-->
-    <link rel="stylesheet" href="./assets//css/styles.css" />
-    <!-- Font stylesheet -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <title>IEDC</title>
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top mynav">
-      <a class="navbar-brand" href="#">
-        <div class="brand-container">
-          <img
-            src="./assets/images/iedc-logo.PNG"
-            class="d-none d-sm-none d-md-inline d-lg-inline img-fluid"
-            alt="IEDC LOGO"
-            style="height: 100%; width: 100%;"
-          />
-          <img
-            src="./assets/images/srm-logo.png"
-            class="d-none d-sm-none d-md-inline d-lg-inline img-fluid"
-            alt="SRM LOGO"
-          />
-        </div>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarResponsive"
-        aria-controls="navbarResponsive"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <div class="container">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item p-2">
-              <a class="nav-link" href="index.html">Home </a>
-            </li>
-            <li class="nav-item p-2">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item p-2">
-              <a class="nav-link" href="committees.html">Committees</a>
-            </li>
-            <li class="nav-item active p-2">
-              <a class="nav-link" href="#"
-                >Activities<span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item dropdown p-2">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                More
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="newsStories.html"
-                  >News Stories</a
-                >
-                <a class="dropdown-item" href="downloads.html">Downloads</a>
-              </div>
-            </li>
-            <li class="nav-item p-2">
-              <a
-                class="btn btn-success"
-                href="https://docs.google.com/forms/d/1XbDQSiG4TuzA9AaKa-PGnoOE35Sbb8s8JH9nPV7FZdo/closedform"
-                target="_blank"
-                >Apply Now</a
-              >
-            </li>
-          </ul>
-        </div>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <!--Custome stylesheet-->
+  <link rel="stylesheet" href="./assets//css/styles.css" />
+  <!-- Font stylesheet -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <title>IEDC</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top mynav">
+    <a class="navbar-brand" href="#">
+      <div class="brand-container">
+        <img src="./assets/images/iedc-logo.PNG" class="d-none d-sm-none d-md-inline d-lg-inline img-fluid"
+          alt="IEDC LOGO" style="height: 100%; width: 100%;" />
+        <img src="./assets/images/srm-logo.png" class="d-none d-sm-none d-md-inline d-lg-inline img-fluid"
+          alt="SRM LOGO" />
       </div>
-    </nav>
-    <!-- Activities -->
-    <section id="activities">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-auto">
-            <table class="table table-responsive">
-              <thead class="thead-dark">
-                <tr>
-                  <th scope="col">Event</th>
-                  <th scope="col">Date</th>
-                  <th scope="col">Gallery</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    MarchBytes with MSPC
-                  </td>
-                  <td>
-                    14/03/2020-15/03/2020
-                  </td>
-                  <td>
-                    <a
-                      class="btn btn-success"
-                      href="https://drive.google.com/open?id=14v8t1Aey8vEfWcwxw8fk1GcEREXmAmZk"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Engaging for Excellence : Embracing Health Innovation
-                  </td>
-                  <td>
-                    05/03/2020
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Startup Story with SRMKZILLA</td>
-                  <td>08/02/2020</td>
-                  <td>
-                    <a
-                      class="btn btn-success"
-                      href="https://drive.google.com/open?id=16NpcGxd3qA8felC67RoZd3_Q3fGB6_6e"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Kreator Showtime</td>
-                  <td>07/02/2020</td>
-                  <td>
-                    <a
-                      class="btn btn-success"
-                      href="https://drive.google.com/open?id=1F92DVHtRfkTkSr_LLCEGLsgOyGnkza7a"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>API Development Workshop with DSC SRM</td>
-                  <td>02/02/2020</td>
-                  <td>
-                    <a
-                      class="btn btn-success"
-                      href="https://drive.google.com/open?id=15u08u7hVv9snH8u3zsv15qZOo797Xupd"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Demo Day</td>
-                  <td>01/02/2020</td>
-                  <td>
-                    <a
-                      class="btn btn-success"
-                      href="https://drive.google.com/open?id=1Gv9FAYShMxDmEOx4aaZYSXlVWeYwX25X"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Big Data Analytics Workshop with MSPC</td>
-                  <td>01/02/2020</td>
-                  <td>
-                    <a
-                      class="btn btn-success"
-                      href="https://drive.google.com/open?id=15D5elRsfoCL_E4Qx61nLkMz5-hwMnN1Z"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>SIH Internal Hackathon</td>
-                  <td>19/01/2020-21/01/2020</td>
-                  <td>
-                    <a
-                      class="btn btn-success"
-                      href="https://drive.google.com/open?id=1GPY8SSqkrxp5t9NMtT94VFM9pMEvrYAW"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Triumph Talks</td>
-                  <td>11/01/2020</td>
-                  <td>
-                    <a
-                      class="btn btn-success"
-                      href="https://drive.google.com/open?id=1LxpHXa1sUgVBIRKiPG-5bS_0DGn8Livm"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    POC Funding Screening Session
-                  </td>
-                  <td>
-                    09/11/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Techtalks</td>
-                  <td>19/10/2019</td>
-                  <td>
-                    <a
-                      class="btn btn-success"
-                      href="https://drive.google.com/open?id=1tX7EauHrvpGuIK76owUVN6qznVt2NQgj"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>DSC X - Support</td>
-                  <td>17/10/2020</td>
-                  <td>
-                    <a
-                      class="btn btn-success"
-                      href="https://drive.google.com/open?id=1Twf3TEBWlrwFlar4YpFxI02Rey7Hd-K2"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Innovation Day</td>
-                  <td>15/10/2020</td>
-                  <td>
-                    <a
-                      class="btn btn-success"
-                      href="https://drive.google.com/open?id=16xgw_GpzbjqNGdMtBVuuVi8zfh2_nMjY"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Google ML/AI- Supported</td>
-                  <td>12/10/2020-13/10/2020</td>
-                  <td>
-                    <a
-                      class="btn btn-success"
-                      href="https://drive.google.com/open?id=10jsJ8AUbh2vD0yy1cYmrA5_a55ZHwzGQ"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Design Bootcamp</td>
-                  <td>11/10/2019-13/10/2019</td>
-                  <td>
-                    <a
-                      class="btn btn-success"
-                      href="https://drive.google.com/open?id=1N64ctZkx6Go5zSWiHskvAy6Cx_oCVmDo"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Five Day FDP on " Flexible And RF Printed Electronics"
-                  </td>
-                  <td>
-                    9/10/2019-13/10/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <tr>
-                    <td>
-                      Tech Talk - II
-                    </td>
-                    <td>
-                      30/9/2019
-                    </td>
-                    <td>
-                      <a class="btn btn-success" href="#" target="_blank"
-                        >Gallery</a
-                      >
-                    </td>
-                  </tr>
-                  <td>Tech Expo</td>
-                  <td>29/9/2019</td>
-                  <td>
-                    <a
-                      class="btn btn-success"
-                      href="https://drive.google.com/open?id=1r3Qrdn7Sa3iHJ73sbZ3OIwaSUbBQuk8x"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>Entrepreneurship Bootcamp</td>
-                  <td>13/9/2019-15/9/2019</td>
-                  <td>
-                    <a
-                      class="btn btn-success"
-                      href="https://drive.google.com/open?id=1r3Qrdn7Sa3iHJ73sbZ3OIwaSUbBQuk8x"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>React with SRMKzilla- Supported</td>
-                  <td>8/9/2019</td>
-                  <td>
-                    <a
-                      class="btn btn-success"
-                      href="https://tinyurl.com/FutureOWeb"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>SRMKzilla Game Design Workshop- Supported</td>
-                  <td>8/9/2019</td>
-                  <td>
-                    <a
-                      class="btn btn-success"
-                      href="https://tinyurl.com/MakeYourFirstVideoGame"
-                      target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    ShowTime-II
-                  </td>
-                  <td>
-                    7/9/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    101 workshop on Lathe
-                  </td>
-                  <td>
-                    7/9/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Creative Arcade
-                  </td>
-                  <td>
-                    7/9/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Gen Y Inception 4.0
-                  </td>
-                  <td>
-                    7/9/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Techmux Hackathon
-                  </td>
-                  <td>
-                    23/8/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Kingston University Bootcamp
-                  </td>
-                  <td>
-                    22/7/2019-23/7/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Smart India Hackathon
-                  </td>
-                  <td>
-                    8/7/2019-15/7/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Entrepreneurship Awareness Camp
-                  </td>
-                  <td>
-                    27/06/2019-28/06/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Triumph Talks - IV
-                  </td>
-                  <td>
-                    2204/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    ShowTime-I
-                  </td>
-                  <td>
-                    12/04/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Triumph Talks- III
-                  </td>
-                  <td>
-                    04/04/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Tech Talks -I
-                  </td>
-                  <td>
-                    02/04/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Workshop on  " Resident Mentors in Innovation and Incubation Centre"
-                  </td>
-                  <td>
-                    14/3/2019-17/03/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Triumph Talks- II
-                  </td>
-                  <td>
-                    13/03/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Triumph Talks- I
-                  </td>
-                  <td>
-                    25/02/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    Entrepreneurs Community Meetup-I
-                  </td>
-                  <td>
-                    09/02/2019
-                  </td>
-                  <td>
-                    <a class="btn btn-success" href="#" target="_blank"
-                      >Gallery</a
-                    >
-                  </td>
-                </tr>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item p-2">
+            <a class="nav-link" href="index.html">Home </a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="committees.html">Committees</a>
+          </li>
+          <li class="nav-item active p-2">
+            <a class="nav-link" href="#">Activities<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown p-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="newsStories.html">News Stories</a>
+              <a class="dropdown-item" href="downloads.html">Downloads</a>
+            </div>
+          </li>
+          <li class="nav-item p-2">
+            <a class="btn btn-success"
+              href="https://docs.google.com/forms/d/1XbDQSiG4TuzA9AaKa-PGnoOE35Sbb8s8JH9nPV7FZdo/closedform"
+              target="_blank">Apply Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Activities -->
+  <section id="activities">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-auto">
+          <table class="table table-responsive">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Event</th>
+                <th scope="col">Date</th>
+                <th scope="col">Gallery</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  MarchBytes with MSPC
+                </td>
+                <td>
+                  14/03/2020-15/03/2020
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#zModal" data-toggle="modal">Gallery</a>
+                  <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" id="zModal" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true" width="80%" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">March Bytes</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 
-              </tbody>
-            </table>
-          </div>
+
+                        </div>
+                        <div class="modal-body">
+                          <div id="carousel2" class="carousel slide">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel2" data-slide-to="1"></li>
+                              <li data-target="#carousel2" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                              <div class="item active">
+                                <img src="assets/images/activities/mb1.jpg" alt=""
+                                  class="img-fluid" />
+                                <div class="carousel-caption">
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/mb2.jpg" alt="" class="img-fluid" />
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/mb3.jpg" alt="" class="img-fluid" />
+                              </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                  </div>
+                  <!-- /.modal -->
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Engaging for Excellence : Embracing Health Innovation
+                </td>
+                <td>
+                  05/03/2020
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Startup Story with SRMKZILLA</td>
+                <td>08/02/2020</td>
+                <td>
+                  <a class="btn btn-success" href="#yModal" data-toggle="modal">Gallery</a>
+                  <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" id="yModal" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true" width="80%" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Startup Story with SRMKZILLA</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+
+                        </div>
+                        <div class="modal-body">
+                          <div id="carousel3" class="carousel slide">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#carousel3" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel3" data-slide-to="1"></li>
+                              <li data-target="#carousel3" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                              <div class="item active">
+                                <img src="assets/images/activities/kss1.jpg" alt=""
+                                  class="img-fluid" />
+                                <div class="carousel-caption">
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/kss2.jpg" alt="" class="img-fluid" />
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/kss3.jpg" alt="" class="img-fluid" />
+                              </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                  </div>
+                  <!-- /.modal -->
+                </td>
+              </tr>
+              <tr>
+                <td>Kreator Showtime</td>
+                <td>07/02/2020</td>
+                <td>
+                  <a class="btn btn-success" href="#xModal" data-toggle="modal">Gallery</a>
+                  <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" id="xModal" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true" width="80%" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Kreator Showtime</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+
+                        </div>
+                        <div class="modal-body">
+                          <div id="carousel4" class="carousel slide">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#carousel4" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel4" data-slide-to="1"></li>
+                              <li data-target="#carousel4" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                              <div class="item active">
+                                <img src="assets/images/activities/kre3.jpg" alt=""
+                                  class="img-fluid" />
+                                <div class="carousel-caption">
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/kre1.JPG" alt="" class="img-fluid" />
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/kre2.JPG" alt="" class="img-fluid" />
+                              </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="carousel-control-prev" href="#carousel4" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel4" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                  </div>
+                  <!-- /.modal -->
+                </td>
+              </tr>
+              <tr>
+                <td>API Development Workshop with DSC SRM</td>
+                <td>02/02/2020</td>
+                <td>
+                  <a class="btn btn-success" href="#wModal" data-toggle="modal">Gallery</a>
+                  <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" id="wModal" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true" width="80%" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">API Development with DSC</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+
+                        </div>
+                        <div class="modal-body">
+                          <div id="carousel5" class="carousel slide">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#carousel5" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel5" data-slide-to="1"></li>
+                              <li data-target="#carousel5" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                              <div class="item active">
+                                <img src="assets/images/activities/dap1.jpg" alt=""
+                                  class="img-fluid" />
+                                <div class="carousel-caption">
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/dap2.jpg" alt="" class="img-fluid" />
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/dap3.jpg" alt="" class="img-fluid" />
+                              </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="carousel-control-prev" href="#carousel5" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel5" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                  </div>
+                  <!-- /.modal -->
+                </td>
+              </tr>
+              <tr>
+                <td>Demo Day</td>
+                <td>01/02/2020</td>
+                <td>
+                  <a class="btn btn-success" href="#vModal" data-toggle="modal">Gallery</a>
+                  <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" id="vModal" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true" width="80%" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Demo Day</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+
+                        </div>
+                        <div class="modal-body">
+                          <div id="carousel6" class="carousel slide">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#carousel6" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel6" data-slide-to="1"></li>
+                              <li data-target="#carousel6" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                              <div class="item active">
+                                <img src="assets/images/activities/dmd1.JPG" alt=""
+                                  class="img-fluid" />
+                                <div class="carousel-caption">
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/dmd2.jpg" alt="" class="img-fluid" />
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/dmd3.jpg" alt="" class="img-fluid" />
+                              </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="carousel-control-prev" href="#carousel6" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel6" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                  </div>
+                  <!-- /.modal -->
+                </td>
+              </tr>
+              <tr>
+                <td>Big Data Analytics Workshop with MSPC</td>
+                <td>01/02/2020</td>
+                <td>
+                  <a class="btn btn-success" href="#uModal" data-toggle="modal">Gallery</a>
+                  <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" id="uModal" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true" width="80%" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Big Data Analytics</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+
+                        </div>
+                        <div class="modal-body">
+                          <div id="carousel7" class="carousel slide">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#carousel7" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel7" data-slide-to="1"></li>
+                              <li data-target="#carousel7" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                              <div class="item active">
+                                <img src="assets/images/activities/msbda1.jpg" alt=""
+                                  class="img-fluid" />
+                                <div class="carousel-caption">
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/msbda2.jpg" alt="" class="img-fluid" />
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/msbda3.jpg" alt="" class="img-fluid" />
+                              </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="carousel-control-prev" href="#carousel7" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel7" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                  </div>
+                  <!-- /.modal -->
+                </td>
+              </tr>
+              <tr>
+                <td>SIH Internal Hackathon</td>
+                <td>19/01/2020-21/01/2020</td>
+                <td>
+                  <a class="btn btn-success" href="#tModal" data-toggle="modal">Gallery</a>
+                  <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" id="tModal" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true" width="80%" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">SIH Internal Hackathon</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+
+                        </div>
+                        <div class="modal-body">
+                          <div id="carousel8" class="carousel slide">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#carousel8" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel8" data-slide-to="1"></li>
+                              <li data-target="#carousel8" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                              <div class="item active">
+                                <img src="assets/images/activities/sihi1.JPG" alt=""
+                                  class="img-fluid" />
+                                <div class="carousel-caption">
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/sihi2.JPG" alt="" class="img-fluid" />
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/sihi3.JPG" alt="" class="img-fluid" />
+                              </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="carousel-control-prev" href="#carousel8" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel8" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                  </div>
+                  <!-- /.modal -->
+                </td>
+              </tr>
+              <tr>
+                <td>Triumph Talks</td>
+                <td>11/01/2020</td>
+                <td>
+                  <a class="btn btn-success" href="#sModal" data-toggle="modal">Gallery</a>
+                  <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" id="sModal" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true" width="80%" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Triumph Talks</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+
+                        </div>
+                        <div class="modal-body">
+                          <div id="carousel9" class="carousel slide">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#carousel9" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel9" data-slide-to="1"></li>
+                              <li data-target="#carousel9" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                              <div class="item active">
+                                <img src="assets/images/activities/stt1.JPG" alt=""
+                                  class="img-fluid" />
+                                <div class="carousel-caption">
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/stt2.JPG" alt="" class="img-fluid" />
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/stt3.JPG" alt="" class="img-fluid" />
+                              </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="carousel-control-prev" href="#carousel9" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel9" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                  </div>
+                  <!-- /.modal -->
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  POC Funding Screening Session
+                </td>
+                <td>
+                  09/11/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Techtalks</td>
+                <td>19/10/2019</td>
+                <td>
+                  <a class="btn btn-success" href="#rModal" data-toggle="modal">Gallery</a>
+                  <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" id="rModal" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true" width="80%" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Techtalks</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+
+                        </div>
+                        <div class="modal-body">
+                          <div id="carousel10" class="carousel slide">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#carousel10" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel10" data-slide-to="1"></li>
+                              <li data-target="#carousel10" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                              <div class="item active">
+                                <img src="assets/images/activities/tta1.jpg" alt=""
+                                  class="img-fluid" />
+                                <div class="carousel-caption">
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/tta2.jpg" alt="" class="img-fluid" />
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/tta3.jpg" alt="" class="img-fluid" />
+                              </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="carousel-control-prev" href="#carousel10" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel10" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                  </div>
+                  <!-- /.modal -->
+                </td>
+              </tr>
+              <tr>
+                <td>DSC X - Support</td>
+                <td>17/10/2020</td>
+                <td>
+                  <a class="btn btn-success" href="#qModal" data-toggle="modal">Gallery</a>
+                  <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" id="qModal" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true" width="80%" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">DSC X - Support</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+
+                        </div>
+                        <div class="modal-body">
+                          <div id="carousel11" class="carousel slide">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#carousel11" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel11" data-slide-to="1"></li>
+                              <li data-target="#carousel11" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                              <div class="item active">
+                                <img src="assets/images/activities/dscx1.JPG" alt=""
+                                  class="img-fluid" />
+                                <div class="carousel-caption">
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/dscx2.JPG" alt="" class="img-fluid" />
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/dscx3.JPG" alt="" class="img-fluid" />
+                              </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="carousel-control-prev" href="#carousel11" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel11" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                  </div>
+                  <!-- /.modal -->
+                </td>
+              </tr>
+              <tr>
+                <td>Innovation Day</td>
+                <td>15/10/2020</td>
+                <td>
+                  <a class="btn btn-success" href="#pModal" data-toggle="modal">Gallery</a>
+                  <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" id="pModal" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true" width="80%" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Innovation Day</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+
+                        </div>
+                        <div class="modal-body">
+                          <div id="carousel12" class="carousel slide">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#carousel12" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel12" data-slide-to="1"></li>
+                              <li data-target="#carousel12" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                              <div class="item active">
+                                <img src="assets/images/activities/ind1.JPG" alt=""
+                                  class="img-fluid" />
+                                <div class="carousel-caption">
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/ind2.JPG" alt="" class="img-fluid" />
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/ind3.JPG" alt="" class="img-fluid" />
+                              </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="carousel-control-prev" href="#carousel12" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel12" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                  </div>
+                  <!-- /.modal -->
+                </td>
+              </tr>
+              <tr>
+                <td>Google ML/AI- Supported</td>
+                <td>12/10/2020-13/10/2020</td>
+                <td>
+                  <a class="btn btn-success" href="#oModal" data-toggle="modal">Gallery</a>
+                  <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" id="oModal" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true" width="80%" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Google ML/AI</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+
+                        </div>
+                        <div class="modal-body">
+                          <div id="carousel13" class="carousel slide">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#carousel13" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel13" data-slide-to="1"></li>
+                              <li data-target="#carousel13" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                              <div class="item active">
+                                <img src="assets/images/activities/gai1.JPG" alt=""
+                                  class="img-fluid" />
+                                <div class="carousel-caption">
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/gai2.JPG" alt="" class="img-fluid" />
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/gai3.JPG" alt="" class="img-fluid" />
+                              </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="carousel-control-prev" href="#carousel13" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel13" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                  </div>
+                  <!-- /.modal -->
+                </td>
+              </tr>
+              <tr>
+                <td>Design Bootcamp</td>
+                <td>11/10/2019-13/10/2019</td>
+                <td>
+                  <a class="btn btn-success" href="#nModal" data-toggle="modal">Gallery</a>
+                  <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" id="nModal" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true" width="80%" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Design Bootcamp</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+
+                        </div>
+                        <div class="modal-body">
+                          <div id="carousel14" class="carousel slide">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#carousel14" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel14" data-slide-to="1"></li>
+                              <li data-target="#carousel14" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                              <div class="item active">
+                                <img src="assets/images/activities/desb1.JPG" alt=""
+                                  class="img-fluid" />
+                                <div class="carousel-caption">
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/desb2.JPG" alt="" class="img-fluid" />
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/desb3.JPG" alt="" class="img-fluid" />
+                              </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="carousel-control-prev" href="#carousel14" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel14" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                  </div>
+                  <!-- /.modal -->
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Five Day FDP on " Flexible And RF Printed Electronics"
+                </td>
+                <td>
+                  9/10/2019-13/10/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+              <tr>
+                <td>
+                  Tech Talk - II
+                </td>
+                <td>
+                  30/9/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <td>Tech Expo</td>
+              <td>29/9/2019</td>
+              <td>
+                <a class="btn btn-success" href="https://drive.google.com/open?id=1r3Qrdn7Sa3iHJ73sbZ3OIwaSUbBQuk8x"
+                  target="_blank">Gallery</a>
+              </td>
+              </tr>
+              <tr>
+                <td>Entrepreneurship Bootcamp</td>
+                <td>13/9/2019-15/9/2019</td>
+                <td>
+                  <a class="btn btn-success" href="https://drive.google.com/open?id=1r3Qrdn7Sa3iHJ73sbZ3OIwaSUbBQuk8x"
+                    target="_blank">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+                <td>React with SRMKzilla- Supported</td>
+                <td>8/9/2019</td>
+                <td>
+                  <a class="btn btn-success" href="#kModal" data-toggle="modal">Gallery</a>
+                  <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" id="kModal" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true" width="80%" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">React with SRMKZILLA</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+
+                        </div>
+                        <div class="modal-body">
+                          <div id="carousel17" class="carousel slide">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#carousel17" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel17" data-slide-to="1"></li>
+                              <li data-target="#carousel17" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                              <div class="item active">
+                                <img src="assets/images/activities/fob1.JPG" alt=""
+                                  class="img-fluid" />
+                                <div class="carousel-caption">
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/fob2.JPG" alt="" class="img-fluid" />
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/fob3.JPG" alt="" class="img-fluid" />
+                              </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="carousel-control-prev" href="#carousel17" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel17" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                  </div>
+                  <!-- /.modal -->
+                </td>
+              </tr>
+              <tr>
+                <td>SRMKzilla Game Design Workshop- Supported</td>
+                <td>8/9/2019</td>
+                <td>
+                  <a class="btn btn-success" href="#jModal" data-toggle="modal">Gallery</a>
+                  <!-- Modal -->
+                  <div class="modal fade bd-example-modal-lg" id="jModal" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true" width="80%" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">SRMKZILLA Game Design</h4>
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+
+                        </div>
+                        <div class="modal-body">
+                          <div id="carousel18" class="carousel slide">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#carousel18" data-slide-to="0" class="active"></li>
+                              <li data-target="#carousel18" data-slide-to="1"></li>
+                              <li data-target="#carousel18" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                              <div class="item active">
+                                <img src="assets/images/activities/game1.JPG" alt=""
+                                  class="img-fluid" />
+                                <div class="carousel-caption">
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/game2.JPG" alt="" class="img-fluid" />
+                              </div>
+                              <div class="item">
+                                <img src="assets/images/activities/game3.JPG" alt="" class="img-fluid" />
+                              </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="carousel-control-prev" href="#carousel18" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel18" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                      <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                  </div>
+                  <!-- /.modal -->
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  ShowTime-II
+                </td>
+                <td>
+                  7/9/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  101 workshop on Lathe
+                </td>
+                <td>
+                  7/9/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Creative Arcade
+                </td>
+                <td>
+                  7/9/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Gen Y Inception 4.0
+                </td>
+                <td>
+                  7/9/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Techmux Hackathon
+                </td>
+                <td>
+                  23/8/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Kingston University Bootcamp
+                </td>
+                <td>
+                  22/7/2019-23/7/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Smart India Hackathon
+                </td>
+                <td>
+                  8/7/2019-15/7/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Entrepreneurship Awareness Camp
+                </td>
+                <td>
+                  27/06/2019-28/06/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Triumph Talks - IV
+                </td>
+                <td>
+                  2204/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  ShowTime-I
+                </td>
+                <td>
+                  12/04/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Triumph Talks- III
+                </td>
+                <td>
+                  04/04/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Tech Talks -I
+                </td>
+                <td>
+                  02/04/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Workshop on " Resident Mentors in Innovation and Incubation Centre"
+                </td>
+                <td>
+                  14/3/2019-17/03/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Triumph Talks- II
+                </td>
+                <td>
+                  13/03/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Triumph Talks- I
+                </td>
+                <td>
+                  25/02/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Entrepreneurs Community Meetup-I
+                </td>
+                <td>
+                  09/02/2019
+                </td>
+                <td>
+                  <a class="btn btn-success" href="#">Gallery</a>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
         </div>
       </div>
-    </section>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </div>
+  </section>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
