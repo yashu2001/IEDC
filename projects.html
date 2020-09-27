@@ -7,7 +7,21 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
+    <style>
+      .carousel-item {
+        height: 50vh !important;
+      }
+      .carousel-item > img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        max-height: 800px;
+        width: auto;
+      }
+    </style>
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -84,7 +98,9 @@
                 More
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="newsStories.html">News Stories</a>
+                <a class="dropdown-item" href="newsStories.html"
+                  >News Stories</a
+                >
                 <a class="dropdown-item" href="downloads.html">Downloads</a>
               </div>
             </li>
@@ -131,10 +147,8 @@
             Paid users.
           </td>
           <td>
-            <a
-              class="btn btn-success"
-              href="https://drive.google.com/open?id=1yelH4UOCxgPja4pum9QVYPlh1YQo9kF5"
-              target="_blank"
+            <!-- href="https://drive.google.com/open?id=1yelH4UOCxgPja4pum9QVYPlh1YQo9kF5" -->
+            <a class="btn btn-success" data-toggle="modal" href="#Modal1"
               >Gallery</a
             >
           </td>
@@ -157,7 +171,11 @@
             They have completed 2nd prototype of Motor with all iterations,
             currently its in testing phase.
           </td>
-          <td><a class="btn btn-success" href="#">Gallery</a></td>
+          <td>
+            <a class="btn btn-success" data-toggle="modal" href="#Modal2"
+              >Gallery</a
+            >
+          </td>
         </tr>
 
         <tr>
@@ -177,10 +195,8 @@
             on to Jetson platform or by Cloud server.
           </td>
           <td>
-            <a
-              class="btn btn-success"
-              href="https://drive.google.com/drive/u/0/folders/1xJg28s-YPFao5wAP6SIYXRckyIaSvfqA"
-              target="_blank"
+            <!--  href="https://drive.google.com/drive/u/0/folders/1xJg28s-YPFao5wAP6SIYXRckyIaSvfqA" -->
+            <a class="btn btn-success" data-toggle="modal" href="#Modal3"
               >Gallery</a
             >
           </td>
@@ -206,10 +222,8 @@
             see performance and efficiency.
           </td>
           <td>
-            <a
-              class="btn btn-success"
-              href="https://drive.google.com/open?id=1iRvYoAuPPiONG1yy1sGmGr56EYRngrTW"
-              target="_blank"
+            <!-- href="https://drive.google.com/open?id=1iRvYoAuPPiONG1yy1sGmGr56EYRngrTW" -->
+            <a class="btn btn-success" data-toggle="modal" href="#Modal4"
               >Gallery</a
             >
           </td>
@@ -230,7 +244,11 @@
             Currently based on learning they had created 2nd prototype of
             extruder. They will be doing further test with Alginate biomaterial.
           </td>
-          <td><a class="btn btn-success" href="#">Gallery</a></td>
+          <td>
+            <a class="btn btn-success" data-toggle="modal" href="#Modal5"
+              >Gallery</a
+            >
+          </td>
         </tr>
 
         <tr>
@@ -250,7 +268,11 @@
             different composition and based on that they will be making second
             version of metal extruder prototype.
           </td>
-          <td><a class="btn btn-success" href="#">Gallery</a></td>
+          <td>
+            <a class="btn btn-success" data-toggle="modal" href="#Modal6"
+              >Gallery</a
+            >
+          </td>
         </tr>
 
         <tr>
@@ -273,10 +295,8 @@
             have ordered required chemicals and accessories to test it.
           </td>
           <td>
-            <a
-              class="btn btn-success"
-              href="https://drive.google.com/file/d/1AxP0L_lzBLSBMYeIMGm4SEBZjIhysqoP/view?usp=sharing"
-              target="_blank"
+            <!-- href="https://drive.google.com/file/d/1AxP0L_lzBLSBMYeIMGm4SEBZjIhysqoP/view?usp=sharing" -->
+            <a class="btn btn-success" data-toggle="modal" href="#Modal7"
               >Gallery</a
             >
           </td>
@@ -303,10 +323,8 @@
             process. And also doing research for efficient output.
           </td>
           <td>
-            <a
-              class="btn btn-success"
-              href="https://photos.app.goo.gl/pZe6YHgjHAUfXNeg9"
-              target="_blank"
+            <!-- href="https://photos.app.goo.gl/pZe6YHgjHAUfXNeg9" -->
+            <a class="btn btn-success" data-toggle="modal" href="#Modal8"
               >Gallery</a
             >
           </td>
@@ -335,10 +353,8 @@
             research, analysis & optimization work is going on.
           </td>
           <td>
-            <a
-              class="btn btn-success"
-              href="https://drive.google.com/file/d/1kBmyW-ySywLeiO4MKTJPHmaXETz34UTp/view?usp=sharing"
-              target="_blank"
+            <!-- href="https://drive.google.com/file/d/1kBmyW-ySywLeiO4MKTJPHmaXETz34UTp/view?usp=sharing" -->
+            <a class="btn btn-success" data-toggle="modal" href="#Modal9"
               >Gallery</a
             >
           </td>
@@ -367,10 +383,8 @@
             directly above the gun.
           </td>
           <td>
-            <a
-              class="btn btn-success"
-              href="https://drive.google.com/open?id=1fQRDA6hYS2BKTNRp-jrvSpYPEOcIcjXP"
-              target="_blank"
+            <!-- href="https://drive.google.com/open?id=1fQRDA6hYS2BKTNRp-jrvSpYPEOcIcjXP" -->
+            <a class="btn btn-success" data-toggle="modal" href="#Modal10"
               >Gallery</a
             >
           </td>
@@ -393,10 +407,8 @@
             construction, they are only left with final construction.
           </td>
           <td>
-            <a
-              class="btn btn-success"
-              href="https://drive.google.com/open?id=1oEwy3WBxAfavGQ_xKc7NELlkJmgmreym"
-              target="_blank"
+            <!-- href="https://drive.google.com/open?id=1oEwy3WBxAfavGQ_xKc7NELlkJmgmreym" -->
+            <a class="btn btn-success" data-toggle="modal" href="#Modal11"
               >Gallery</a
             >
           </td>
@@ -431,10 +443,8 @@
             proprioceptive sensors, required for complete autonomy.
           </td>
           <td>
-            <a
-              class="btn btn-success"
-              href="https://drive.google.com/drive/folders/1v1txG1rqtwCU-2isIBJU-zqRlalGO-7w?usp=sharing"
-              target="_blank"
+            <!-- href="https://drive.google.com/drive/folders/1v1txG1rqtwCU-2isIBJU-zqRlalGO-7w?usp=sharing" -->
+            <a class="btn btn-success" data-toggle="modal" href="#Modal12"
               >Gallery</a
             >
           </td>
@@ -460,10 +470,8 @@
             testing with more patients
           </td>
           <td>
-            <a
-              class="btn btn-success"
-              href="https://drive.google.com/drive/folders/1bSIPAj1o4shiVfCryniHCd0dJrWcNP43?usp=sharing"
-              target="_blank"
+            <!-- href="https://drive.google.com/drive/folders/1bSIPAj1o4shiVfCryniHCd0dJrWcNP43?usp=sharing" -->
+            <a class="btn btn-success" data-toggle="modal" href="#Modal13"
               >Gallery</a
             >
           </td>
@@ -497,10 +505,8 @@
             starting pilot run.
           </td>
           <td>
-            <a
-              class="btn btn-success"
-              href="https://drive.google.com/file/d/1CeyO_BDZGa5gS1kEAefWD8UGO_P6Mt1h/view?usp=sharing"
-              target="_blank"
+            <!-- href="https://drive.google.com/file/d/1CeyO_BDZGa5gS1kEAefWD8UGO_P6Mt1h/view?usp=sharing" -->
+            <a class="btn btn-success" data-toggle="modal" href="#Modal14"
               >Gallery</a
             >
           </td>
@@ -536,10 +542,8 @@
             they will notify to farmer through mobile/web app.
           </td>
           <td>
-            <a
-              class="btn btn-success"
-              href="https://drive.google.com/open?id=1K5ktYUbFGffcQ7uxO3Iw4bJgwui23IoS"
-              target="_blank"
+            <!-- href="https://drive.google.com/open?id=1K5ktYUbFGffcQ7uxO3Iw4bJgwui23IoS" -->
+            <a class="btn btn-success" data-toggle="modal" href="#Modal15"
               >Gallery</a
             >
           </td>
@@ -566,7 +570,11 @@
             development of their first prototype to experiment and check the
             results in real systems.
           </td>
-          <td><a class="btn btn-success" href="#">Gallery</a></td>
+          <td>
+            <a class="btn btn-success" data-toggle="modal" href="#Modal16"
+              >Gallery</a
+            >
+          </td>
         </tr>
 
         <tr>
@@ -587,10 +595,8 @@
             over web and mobile application.
           </td>
           <td>
-            <a
-              class="btn btn-success"
-              href="https://drive.google.com/drive/folders/1H14bHHeB4Yu60vs_sqv-mm8M_zvht6xw?usp=sharing"
-              target="_blank"
+            <!-- href="https://drive.google.com/drive/folders/1H14bHHeB4Yu60vs_sqv-mm8M_zvht6xw?usp=sharing" -->
+            <a class="btn btn-success" data-toggle="modal" href="#Modal17"
               >Gallery</a
             >
           </td>
@@ -610,10 +616,8 @@
             performance.
           </td>
           <td>
-            <a
-              class="btn btn-success"
-              href="https://drive.google.com/drive/folders/1cwCkahJxEn6b1CVhXMbuJ37knupW6u6N?usp=sharing"
-              target="_blank"
+            <!-- href="https://drive.google.com/drive/folders/1cwCkahJxEn6b1CVhXMbuJ37knupW6u6N?usp=sharing" -->
+            <a class="btn btn-success" data-toggle="modal" href="#Modal18"
               >Gallery</a
             >
           </td>
@@ -640,10 +644,1169 @@
             have finished all CAD designs of mechanical parts and PCB board
             designs.
           </td>
-          <td><a class="btn btn-success" href="#">Gallery</a></td>
+          <td>
+            <a class="btn btn-success" data-toggle="modal" href="#Modal19"
+              >Gallery</a
+            >
+          </td>
         </tr>
       </tbody>
     </table>
+    <!-- Modals -->
+    <!-- Modal 1 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal1"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="Carousel1" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/images/projects/team 1/one.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 1/two.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#Carousel1"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#Carousel1"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 1 -->
+
+    <!-- Modal 2 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal2"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>No images available</h1>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 2 -->
+
+    <!-- Modal 3 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal3"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>No images available</h1>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 3 -->
+
+    <!-- Modal 4 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal4"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="Carousel4" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/images/projects/team 4/KIM Battery Pack.jpeg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#Carousel4"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#Carousel4"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 4 -->
+
+    <!-- Modal 5 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal5"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>No images available</h1>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 5 -->
+
+    <!-- Modal 6 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal6"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>No images available</h1>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 6 -->
+
+    <!-- Modal 7 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal7"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="Carousel7" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/images/projects/team 7/one.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#Carousel7"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#Carousel7"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 7 -->
+
+    <!-- Modal 8 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal8"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="Carousel8" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/images/projects/team 8/one.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 8/two.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 8/three.jpeg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 8/four.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 8/five.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#Carousel8"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#Carousel8"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 8 -->
+
+    <!-- Modal 9 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal9"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>No images available</h1>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 9 -->
+
+    <!-- Modal 10 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal10"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>No images available</h1>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 10 -->
+
+    <!-- Modal 11 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal11"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>No images available</h1>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 11 -->
+
+    <!-- Modal 12 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal12"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="Carousel12" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/images/projects/team 12/IMG_20200307_175645956.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 12/IMG_6111.JPG"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 12/IMG_6133.JPG"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 12/IMG_E6130.JPG"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#Carousel12"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#Carousel12"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 12 -->
+
+    <!-- Modal 13 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal13"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="Carousel13" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/images/projects/team 13/callCUI.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 13/mgPdRep.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 13/prorposes_UI.JPG"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 13/saveMgData.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#Carousel13"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#Carousel13"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 13 -->
+
+    <!-- Modal 14 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal14"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>No images available</h1>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 14 -->
+
+    <!-- Modal 15 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal15"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="Carousel15" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/images/projects/team 15/Azure_DB.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 15/Fruit_maturing_stage.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 15/on-field setup.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 15/onfieldanalysis.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 15/UI.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#Carousel15"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#Carousel15"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 15 -->
+
+    <!-- Modal 16 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal16"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>No images available</h1>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 16 -->
+
+    <!-- Modal 17 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal17"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="Carousel7" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/images/projects/team 17/final_image1.jpeg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 17/moovy_exploded.PNG"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 17/WhatsApp Image 2019-10-21 at 00.16.59.jpeg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#Carousel17"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#Carousel17"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 17 -->
+
+    <!-- Modal 18 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal18"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="Carousel18" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/images/projects/team 18/IMG_20200201_123830_Bokeh.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/projects/team 18/IMG_20200201_123830_Bokeh2.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#Carousel18"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#Carousel18"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 18 -->
+
+    <!-- Modal 19 starts -->
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="Modal19"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h1>No images available</h1>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal 19 -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
