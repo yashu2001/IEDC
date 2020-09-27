@@ -1,2553 +1,1307 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <!--Custome stylesheet-->
-    <link rel="stylesheet" href="./assets//css/styles.css" />
-    <!-- Font stylesheet -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <title>IEDC</title>
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top mynav">
-      <a class="navbar-brand" href="#">
-        <div class="brand-container">
-          <img
-            src="./assets/images/iedc-logo.PNG"
-            class="d-none d-sm-none d-md-inline d-lg-inline img-fluid"
-            alt="IEDC LOGO"
-            style="height: 100%; width: 100%;"
-          />
-          <img
-            src="./assets/images/srm-logo.png"
-            class="d-none d-sm-none d-md-inline d-lg-inline img-fluid"
-            alt="SRM LOGO"
-          />
-        </div>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarResponsive"
-        aria-controls="navbarResponsive"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <div class="container">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item p-2">
-              <a class="nav-link" href="index.html">Home </a>
-            </li>
-            <li class="nav-item active p-2">
-              <a class="nav-link" href="#"
-                >Projects<span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item p-2">
-              <a class="nav-link" href="committees.html">Committees</a>
-            </li>
-            <li class="nav-item p-2">
-              <a class="nav-link" href="activities.html">Activities</a>
-            </li>
-            <li class="nav-item dropdown p-2">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                More
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="newsStories.html"
-                  >News Stories</a
-                >
-                <a class="dropdown-item" href="downloads.html">Downloads</a>
-              </div>
-            </li>
-            <li class="nav-item p-2">
-              <a
-                class="btn btn-success"
-                href="https://docs.google.com/forms/d/1XbDQSiG4TuzA9AaKa-PGnoOE35Sbb8s8JH9nPV7FZdo/closedform"
-                target="_blank"
-                >Apply Now</a
-              >
-            </li>
-          </ul>
-        </div>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <!--Custome stylesheet-->
+  <link rel="stylesheet" href="./assets//css/styles.css" />
+  <!-- Font stylesheet -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <title>IEDC</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top mynav">
+    <a class="navbar-brand" href="#">
+      <div class="brand-container">
+        <img src="./assets/images/iedc-logo.PNG" class="d-none d-sm-none d-md-inline d-lg-inline img-fluid"
+          alt="IEDC LOGO" style="height: 100%; width: 100%;" />
+        <img src="./assets/images/srm-logo.png" class="d-none d-sm-none d-md-inline d-lg-inline img-fluid"
+          alt="SRM LOGO" />
       </div>
-    </nav>
-    <!--Projects Table-->
-    <table class="table table-responsive">
-      <thead class="thead-dark">
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">Team Name</th>
-          <th scope="col">Brief About Project</th>
-          <th scope="col">Intervention Mode</th>
-          <th scope="col">Current Status</th>
-          <th scope="col">Gallery</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>NIS0001 Monkwish</td>
-          <td>
-            A platform for employer to improve the organization performance and
-            capabilities by identifying employee skill gap and help them to
-            become competent.
-          </td>
-          <td>
-            Application developed and have successfully run first pilot with
-            Swiggy for product validation.
-          </td>
-          <td>
-            Currently they have developed final products with all interations.
-            They have adopted subscription based model. Currently they have 5
-            Paid users.
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#myModal"
-              >Gallery</a
-            >
-          </td>
-        </tr>
-
-        <tr>
-          <th scope="row">2</th>
-          <td>NIS0002 Rizel</td>
-          <td>
-            Developing Electric Vehicle Powertrain
-          </td>
-          <td>
-            For First prototype to test their technology, they had retrofit KTM
-            bike, made electric version with integration of Motor, BMS, Drive
-            etc. To understand the performance and efficiency. After learning,
-            they have successfully completed digital design of battery pack and
-            Motor, and also started working on first prototype.
-          </td>
-          <td>
-            They have completed 2nd prototype of Motor with all iterations,
-            currently its in testing phase.
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#zModal"
-              >Gallery</a
-            >
-            <!-- Modal -->
-            <div
-              class="modal fade bd-example-modal-lg"
-              id="zModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-              width="80%"
-              role="dialog"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Rizel</h4>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-hidden="true"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div id="carousel2" class="carousel slide">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li
-                          data-target="#carousel2"
-                          data-slide-to="0"
-                          class="active"
-                        ></li>
-                        <li data-target="#carousel2" data-slide-to="1"></li>
-                        <li data-target="#carousel2" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img
-                            src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                            alt=""
-                            class="img-fluid"
-                          />
-                          <div class="carousel-caption">
-                            <!--
-                    <h3>First slide label</h3>
-
-                    <p>First slide Caption.</p> -->
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img
-                            src="assets/images/projects/IMG_3231.HEIC"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                      </div>
-                      <!-- Controls -->
-                      <a
-                        class="carousel-control-prev"
-                        href="#carousel2"
-                        role="button"
-                        data-slide="prev"
-                      >
-                        <span
-                          class="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a
-                        class="carousel-control-next"
-                        href="#carousel2"
-                        role="button"
-                        data-slide="next"
-                      >
-                        <span
-                          class="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-default"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-                <!-- /.modal-content -->
-              </div>
-              <!-- /.modal-dialog -->
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <div class="container">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item p-2">
+            <a class="nav-link" href="index.html">Home </a>
+          </li>
+          <li class="nav-item active p-2">
+            <a class="nav-link" href="#">Projects<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="committees.html">Committees</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link" href="activities.html">Activities</a>
+          </li>
+          <li class="nav-item dropdown p-2">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="newsStories.html">News Stories</a>
+              <a class="dropdown-item" href="downloads.html">Downloads</a>
             </div>
-            <!-- /.modal -->
-          </td>
-        </tr>
+          </li>
+          <li class="nav-item p-2">
+            <a class="btn btn-success"
+              href="https://docs.google.com/forms/d/1XbDQSiG4TuzA9AaKa-PGnoOE35Sbb8s8JH9nPV7FZdo/closedform"
+              target="_blank">Apply Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Projects Table-->
+  <table class="table table-responsive">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Team Name</th>
+        <th scope="col">Brief About Project</th>
+        <th scope="col">Intervention Mode</th>
+        <th scope="col">Current Status</th>
+        <th scope="col">Gallery</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>NIS0001 Monkwish</td>
+        <td>
+          A platform for employer to improve the organization performance and
+          capabilities by identifying employee skill gap and help them to
+          become competent.
+        </td>
+        <td>
+          Application developed and have successfully run first pilot with
+          Swiggy for product validation.
+        </td>
+        <td>
+          Currently they have developed final products with all interations.
+          They have adopted subscription based model. Currently they have 5
+          Paid users.
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#myModal">Gallery</a>
+        </td>
+      </tr>
 
-        <tr>
-          <th scope="row">3</th>
-          <td>NIS0005 Smart Attendance Sysem</td>
-          <td>
-            A platform to provide access to premises by Face Recognition
-          </td>
-          <td>
-            They had created an application on laptop to run the test, it was
-            able to do face detection and recognition in milliseconds, easily it
-            could detect 5 faces at a time, but needed more computation power to
-            detect more faces and also the system was not easily expandable.
-          </td>
-          <td>
-            Currently they are working on to make stand alone system by moving
-            on to Jetson platform or by Cloud server.
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#rModal"
-              >Gallery</a
-            >
-            <!-- Modal -->
-            <div
-              class="modal fade bd-example-modal-lg"
-              id="rModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-              width="80%"
-              role="dialog"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Smart Attendance System</h4>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-hidden="true"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div id="carousel3" class="carousel slide">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li
-                          data-target="#carousel3"
-                          data-slide-to="0"
-                          class="active"
-                        ></li>
-                        <li data-target="#carousel3" data-slide-to="1"></li>
-                        <li data-target="#carousel3" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img
-                            src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                            alt=""
-                            class="img-fluid"
-                          />
-                          <div class="carousel-caption">
-                            <!--
-                        <h3>First slide label</h3>
+      <tr>
+        <th scope="row">2</th>
+        <td>NIS0002 Rizel</td>
+        <td>
+          Developing Electric Vehicle Powertrain
+        </td>
+        <td>
+          For First prototype to test their technology, they had retrofit KTM
+          bike, made electric version with integration of Motor, BMS, Drive
+          etc. To understand the performance and efficiency. After learning,
+          they have successfully completed digital design of battery pack and
+          Motor, and also started working on first prototype.
+        </td>
+        <td>
+          They have completed 2nd prototype of Motor with all iterations,
+          currently its in testing phase.
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#zModal">Gallery</a>
+        </td>
+      </tr>
 
-                        <p>First slide Caption.</p> -->
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img
-                            src="assets/images/projects/IMG_3231.HEIC"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                      </div>
-                      <!-- Controls -->
-                      <a
-                        class="carousel-control-prev"
-                        href="#carousel3"
-                        role="button"
-                        data-slide="prev"
-                      >
-                        <span
-                          class="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a
-                        class="carousel-control-next"
-                        href="#carousel3"
-                        role="button"
-                        data-slide="next"
-                      >
-                        <span
-                          class="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-default"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-                <!-- /.modal-content -->
+      <tr>
+        <th scope="row">3</th>
+        <td>NIS0005 Smart Attendance Sysem</td>
+        <td>
+          A platform to provide access to premises by Face Recognition
+        </td>
+        <td>
+          They had created an application on laptop to run the test, it was
+          able to do face detection and recognition in milliseconds, easily it
+          could detect 5 faces at a time, but needed more computation power to
+          detect more faces and also the system was not easily expandable.
+        </td>
+        <td>
+          Currently they are working on to make stand alone system by moving
+          on to Jetson platform or by Cloud server.
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#rModal">Gallery</a>
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row">4</th>
+        <td>NIS0006 Development of EV retrofitting kits</td>
+        <td>
+          EV retrofit kit for converting existing gasoline vehicle to
+          electric.
+        </td>
+        <td>
+          To make first prototype they have converted one riksha into electric
+          and made test run to understand performance and efficiency. Based on
+          that learning they have made second prototype with standard
+          industrial grade stuffs and connected over internet to wirelessly
+          control and study the performance.
+        </td>
+        <td>
+          Currently they had completed final version of prototype with all
+          possible iterations and its on pilot run. And study is going on to
+          see performance and efficiency.
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#xModal">Gallery</a>
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row">5</th>
+        <td>NIS0008 Bio 3D printer</td>
+        <td>
+          Desktop model BIO 3D Printer.
+        </td>
+        <td>
+          They had fabricated first prototype to test and learn the properties
+          of biomaterial while printing. For first run they have used Aloe
+          Vera gel as it has similar viscosity as other bio material.
+        </td>
+        <td>
+          Currently based on learning they had created 2nd prototype of
+          extruder. They will be doing further test with Alginate biomaterial.
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#aModal">Gallery</a>
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row">6</th>
+        <td>NIS0007 Metal 3D Printer</td>
+        <td>
+          Desktop model of Metal 3D printer
+        </td>
+        <td>
+          They had tried using different composition to test sintering process
+          to make first metal printed model they had used existing furnace to
+          get output. They have planned to create an extruder to bring all
+          process at single place could be done.
+        </td>
+        <td>
+          Currently they had bought new furnace to do deep research on
+          different composition and based on that they will be making second
+          version of metal extruder prototype.
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#bModal">Gallery</a>
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row">7</th>
+        <td>NIS0013 MetaWear</td>
+        <td>
+          A miniature device to monitor remotely body temperature, heart beat
+          & Glucose.
+        </td>
+        <td>
+          They have tested first prototype on Breadboard, to test heartbeat
+          and temperature. After testing they have finalised components, made
+          first prototype of pcb board for measuring heart beat, and run test
+          again. Also made a online portal where device push all data over
+          internet to server, which could be seen at Mobile/Web App.
+        </td>
+        <td>
+          After successful testing of heart beat over PCB board, team have
+          started working on Glucometer to test Glucose level by sweat. They
+          have ordered required chemicals and accessories to test it.
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#cModal">Gallery</a>
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row">8</th>
+        <td>
+          NIS0014 Conversion of plastic waste to fuel oil via enhanced
+          pyrolysis with hydrogenation
+        </td>
+        <td>
+          Conversion of plastic waste to fuel oil via enhanced pyrolysis with
+          hydrogenation
+        </td>
+        <td>
+          To test their theoretical assumptions, they have made first
+          prototype to test the characteristics of output oil/gas from
+          processed waste plastics. They have studied output and its falling
+          in category of petrol/diesel.
+        </td>
+        <td>
+          Currently, they are working on refining output by adding catalyst in
+          process. And also doing research for efficient output.
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#dModal">Gallery</a>
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row">9</th>
+        <td>
+          NIS0015 Fabrication and parametric evaluation of modified cooling
+          scheme in a bench scale OTEC system.
+        </td>
+        <td>
+          Design and development of a bench scale Ocean Thermal Energy
+          Conversion facility which co-generates power and desalinated water
+          at the same time. This system has a wide scale application in
+          industries and can also be used for desalination of seawater to meet
+          the water demands.
+        </td>
+        <td>
+          A first prototype of this project was developed, which helped as a
+          proof of concept. After that they have fabricated second prototype
+          which is highly precise system, able to get satisfactory result.
+        </td>
+        <td>
+          Currently, they are ready with second Prototype and also further
+          research, analysis & optimization work is going on.
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#eModal">Gallery</a>
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row">10</th>
+        <td>
+          NIS0019 Tactical Smart Scope Using Encoder Decoder Based Scene
+          Segmentation
+        </td>
+        <td>
+          Design and development of Tactical Smart Scope based on Scene
+          Segmentation. There aim is to display over the scope human body map,
+          and also surrounding environment and object.
+        </td>
+        <td>
+          To test their concept first they have integrated all major
+          components camera, screen, lens , tried experiment. There were able
+          to do human face recognition, creating dynamic map of human body,
+          able to recognize surrounding objects and environment.
+        </td>
+        <td>
+          Currently they have started working on second prototype, where they
+          are designing stand alone board system, which could be installed
+          directly above the gun.
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#fModal">Gallery</a>
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row">11</th>
+        <td>NIS0020 Light weight concrete Canoe</td>
+        <td>A light weight concrete canoe of 6 meter</td>
+        <td>
+          They have prepared first prototype by using concrete of density
+          855kg/m3 and the reinforcement carbon fiber. The mold for
+          construction is prepared using styrofoam which is engraved using a
+          CNC machine. First prototype was unsuccessful, it got vertical crack
+          after drying up.
+        </td>
+        <td>
+          Currently they have started to prepare second prototype, they have
+          prepared the reinforcement and completed 70% of the mold
+          construction, they are only left with final construction.
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#gModal">Gallery</a>
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row">12</th>
+        <td>
+          NIS0021 Self Reconfigurable Modular Mobile Robots for Uneven
+          Terrains
+        </td>
+        <td>
+          The project aims to develop shape-shifting modular reconfigurable
+          robots that undergo autonomous morphogenesis i.e. structure
+          formation based on current environmental situation and task assigned
+          to the robot. The quintessential modular robots are not designed to
+          do any particular task but are a versatile system that develops into
+          various forms to execute a variety of tasks.
+        </td>
+        <td>
+          Followed by a comprehensive CAD and PCB design, a 3D printed
+          prototype of the modular robot was made to test and verify its
+          economic feasibility, technical viability, and real-world
+          deployability. Preliminary testing exhibiting locomotion, magnetic
+          docking, and lifting of a module was carried subsequently.
+        </td>
+        <td>
+          Currently, they plan to work on the self- reconfiguration section,
+          which would result in broadening the deployability of such modules
+          in remote, hostile, and human inaccessible environments. The novel
+          modular robots are equipped with sufficient exteroceptive as well as
+          proprioceptive sensors, required for complete autonomy.
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#hModal">Gallery</a>
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row">13</th>
+        <td>
+          NIS0022 Design and Development of system module to measure the
+          variation in micrographia and speech for Parkinson's Disease.
+        </td>
+        <td>
+          Design and Development of system module to measure the variation in
+          micrographia and speech for Parkinson's Disease.
+        </td>
+        <td>
+          They have made first prototype by using WACOM and studied the output
+          by drawing various shape.They have run pilot with 3 patients, based
+          on feedback, they have modified application.
+        </td>
+        <td>
+          Currently, they have completed second prototype and software to do
+          testing with more patients
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#iModal">Gallery</a>
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row">14</th>
+        <td>
+          NIS0023 Non-Invasive Bilirubin Sensor for Continuous Monitoring and
+          Automatic Control of Phototherapy for Infant Jaundice Treatment
+        </td>
+        <td>
+          To design a compact size Non-Invasive Bilirubin sensor which
+          continuously monitors bilirubin level of jaundice in neonates and To
+          automatically start the phototherapy treatment process using Iot
+          technology
+        </td>
+        <td>
+          They did Testing with colour chart ( diff yellow colour chart) - to
+          prove that designed sensor shows variation amony diff level of
+          colour charts. Measured with 75 adults with three different skin
+          tone such as fair, dark and brownish skin tones - To prove how far
+          the designed sensor shows variation among diff skin tones at diff
+          location such as Forehead, ventral palm, ventral wrist , dorsal palm
+          and dorsal wrist. Testing with 10 volunteering neonates - found 50%
+          correlation with existing jaundice meter.
+        </td>
+        <td>
+          Currently, Second Prototype designed and fabricated of non-invasive
+          bilirubin sensor and phototherapy set up is ready. They will be
+          starting pilot run.
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#jModal">Gallery</a>
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row">15</th>
+        <td>
+          NIS0024 Design and developmen of a Crop Quality Moitoring and
+          Classification System using IoT and Blockchain
+        </td>
+        <td>
+          Design and development of a crop quality monitoring system with aim
+          to a) Sensing the various parameters on-field and warehouse to
+          determine the crop quality. b) To update this data into the
+          blockchain. c) To enable a secured transaction between the
+          distributor and the farmer.
+        </td>
+        <td>
+          The sensors were calibrated to obtain better accuracy and first
+          implemented in the horticulture department for testing purposes. For
+          real-time data, 6 bags were taken and seeds sown with the soil
+          containing fertilizers as well. The crop was monitored throughout
+          the growing stage and tomatoes were obtained. The sensor data was
+          recorded and stored in the database for classification of quality.
+          The private ethereum blockchain network was built initially to
+          visualize the working efficiently.
+        </td>
+        <td>
+          Currently they are working on second prototype for big area of
+          agriculture land and setting up their device at various location to
+          understand characteristics of soil at various position, accordingly
+          they will notify to farmer through mobile/web app.
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#kModal">Gallery</a>
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row">16</th>
+        <td>
+          NIS0025 Design of wearablle full duplex Digital Transceiver for
+          underwater optical wireless communication
+        </td>
+        <td>
+          A wearable full-duplex digital transceiver based on blue LED for
+          high speed data communication such as audio/video Under working
+          condition.
+        </td>
+        <td>
+          They have created digital model to test their all ideas, all the
+          simulations have been completed and the results have been verified,
+          analyzed and tabulated.
+        </td>
+        <td>
+          Currently they have procured all the required resources for
+          development of their first prototype to experiment and check the
+          results in real systems.
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#lModal">Gallery</a>
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row">17</th>
+        <td>NIS0028 Faby</td>
+        <td>
+          A mobile robot, which could autonomously move around premises. Which
+          should be able to supervise and control premises over the network.
+        </td>
+        <td>
+          They have fabricated first prototype with the features of
+          controlling premises over the network and do autonomous movement
+          around. and also added feature to talk back, to give tour to guests.
+        </td>
+        <td>
+          Currently they are working on second prototype improvising,
+          autonomous mode of robot, and also adding with feature to control
+          over web and mobile application.
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#mModal">Gallery</a>
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row">18</th>
+        <td>NIS0029 Fablab UGV</td>
+        <td>An Unmanned Ground Vehicle</td>
+        <td>
+          First prototype, they mainly work on movement of UGV based on
+          geolocation and also sensor integration to avoid obstacles.
+        </td>
+        <td>
+          Currently, They are developing second version of their prototype
+          with integration of industrial grade components for better
+          performance.
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#nModal">Gallery</a>
+        </td>
+      </tr>
+
+      <tr>
+        <th scope="row">19</th>
+        <td>
+          NIS0033 Design Development and Implementation of parrallel
+          drivetrain for 3 wheelers
+        </td>
+        <td>
+          Design Development and Implementation of parallel drivetrain for 3
+          wheelers
+        </td>
+        <td>
+          To test their concept they had created digital model and run all the
+          simulation to study the performance. Results were convincing based
+          on that they have finalised all components for their first
+          prototype.
+        </td>
+        <td>
+          Currently, They have procured all the required components and also
+          have finished all CAD designs of mechanical parts and PCB board
+          designs.
+        </td>
+        <td>
+          <a class="btn btn-success" data-toggle="modal" href="#oModal">Gallery</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!--Monkwish-->
+  <div class="modal fade bd-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
               </div>
-              <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-          </td>
-        </tr>
-
-        <tr>
-          <th scope="row">4</th>
-          <td>NIS0006 Development of EV retrofitting kits</td>
-          <td>
-            EV retrofit kit for converting existing gasoline vehicle to
-            electric.
-          </td>
-          <td>
-            To make first prototype they have converted one riksha into electric
-            and made test run to understand performance and efficiency. Based on
-            that learning they have made second prototype with standard
-            industrial grade stuffs and connected over internet to wirelessly
-            control and study the performance.
-          </td>
-          <td>
-            Currently they had completed final version of prototype with all
-            possible iterations and its on pilot run. And study is going on to
-            see performance and efficiency.
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#xModal"
-              >Gallery</a
-            >
-            <!-- Modal -->
-            <div
-              class="modal fade bd-example-modal-lg"
-              id="xModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-              width="80%"
-              role="dialog"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">
-                      Development of EV Retrofitting Kits
-                    </h4>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-hidden="true"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div id="carousel4" class="carousel slide">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li
-                          data-target="#carousel4"
-                          data-slide-to="0"
-                          class="active"
-                        ></li>
-                        <li data-target="#carousel4" data-slide-to="1"></li>
-                        <li data-target="#carousel4" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img
-                            src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                            alt=""
-                            class="img-fluid"
-                          />
-                          <div class="carousel-caption">
-                            <!--
-                    <h3>First slide label</h3>
-
-                    <p>First slide Caption.</p> -->
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img
-                            src="assets/images/projects/IMG_3231.HEIC"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                      </div>
-                      <!-- Controls -->
-                      <a
-                        class="carousel-control-prev"
-                        href="#carousel4"
-                        role="button"
-                        data-slide="prev"
-                      >
-                        <span
-                          class="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a
-                        class="carousel-control-next"
-                        href="#carousel4"
-                        role="button"
-                        data-slide="next"
-                      >
-                        <span
-                          class="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-default"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-                <!-- /.modal-content -->
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
               </div>
-              <!-- /.modal-dialog -->
             </div>
-            <!-- /.modal -->
-          </td>
-        </tr>
-
-        <tr>
-          <th scope="row">5</th>
-          <td>NIS0008 Bio 3D printer</td>
-          <td>
-            Desktop model BIO 3D Printer.
-          </td>
-          <td>
-            They had fabricated first prototype to test and learn the properties
-            of biomaterial while printing. For first run they have used Aloe
-            Vera gel as it has similar viscosity as other bio material.
-          </td>
-          <td>
-            Currently based on learning they had created 2nd prototype of
-            extruder. They will be doing further test with Alginate biomaterial.
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#aModal"
-              >Gallery</a
-            >
-            <!-- Modal -->
-            <div
-              class="modal fade bd-example-modal-lg"
-              id="aModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-              width="80%"
-              role="dialog"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Bio 3D Printer</h4>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-hidden="true"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div id="carousel5" class="carousel slide">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li
-                          data-target="#carousel5"
-                          data-slide-to="0"
-                          class="active"
-                        ></li>
-                        <li data-target="#carousel5" data-slide-to="1"></li>
-                        <li data-target="#carousel5" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img
-                            src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                            alt=""
-                            class="img-fluid"
-                          />
-                          <div class="carousel-caption">
-                            <!--
-                    <h3>First slide label</h3>
-
-                    <p>First slide Caption.</p> -->
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img
-                            src="assets/images/projects/IMG_3231.HEIC"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                      </div>
-                      <!-- Controls -->
-                      <a
-                        class="carousel-control-prev"
-                        href="#carousel5"
-                        role="button"
-                        data-slide="prev"
-                      >
-                        <span
-                          class="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a
-                        class="carousel-control-next"
-                        href="#carousel5"
-                        role="button"
-                        data-slide="next"
-                      >
-                        <span
-                          class="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-default"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-                <!-- /.modal-content -->
-              </div>
-              <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-          </td>
-        </tr>
-
-        <tr>
-          <th scope="row">6</th>
-          <td>NIS0007 Metal 3D Printer</td>
-          <td>
-            Desktop model of Metal 3D printer
-          </td>
-          <td>
-            They had tried using different composition to test sintering process
-            to make first metal printed model they had used existing furnace to
-            get output. They have planned to create an extruder to bring all
-            process at single place could be done.
-          </td>
-          <td>
-            Currently they had bought new furnace to do deep research on
-            different composition and based on that they will be making second
-            version of metal extruder prototype.
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#bModal"
-              >Gallery</a
-            >
-            <!-- Modal -->
-            <div
-              class="modal fade bd-example-modal-lg"
-              id="bModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-              width="80%"
-              role="dialog"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Metal 3D Printer</h4>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-hidden="true"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div id="carousel6" class="carousel slide">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li
-                          data-target="#carousel6"
-                          data-slide-to="0"
-                          class="active"
-                        ></li>
-                        <li data-target="#carousel6" data-slide-to="1"></li>
-                        <li data-target="#carousel6" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img
-                            src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                            alt=""
-                            class="img-fluid"
-                          />
-                          <div class="carousel-caption">
-                            <!--
-                    <h3>First slide label</h3>
-
-                    <p>First slide Caption.</p> -->
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img
-                            src="assets/images/projects/IMG_3231.HEIC"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                      </div>
-                      <!-- Controls -->
-                      <a
-                        class="carousel-control-prev"
-                        href="#carousel6"
-                        role="button"
-                        data-slide="prev"
-                      >
-                        <span
-                          class="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a
-                        class="carousel-control-next"
-                        href="#carousel6"
-                        role="button"
-                        data-slide="next"
-                      >
-                        <span
-                          class="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-default"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-                <!-- /.modal-content -->
-              </div>
-              <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-          </td>
-        </tr>
-
-        <tr>
-          <th scope="row">7</th>
-          <td>NIS0013 MetaWear</td>
-          <td>
-            A miniature device to monitor remotely body temperature, heart beat
-            & Glucose.
-          </td>
-          <td>
-            They have tested first prototype on Breadboard, to test heartbeat
-            and temperature. After testing they have finalised components, made
-            first prototype of pcb board for measuring heart beat, and run test
-            again. Also made a online portal where device push all data over
-            internet to server, which could be seen at Mobile/Web App.
-          </td>
-          <td>
-            After successful testing of heart beat over PCB board, team have
-            started working on Glucometer to test Glucose level by sweat. They
-            have ordered required chemicals and accessories to test it.
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#cModal"
-              >Gallery</a
-            >
-            <!-- Modal -->
-            <div
-              class="modal fade bd-example-modal-lg"
-              id="cModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-              width="80%"
-              role="dialog"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">MetaWear</h4>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-hidden="true"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div id="carousel7" class="carousel slide">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li
-                          data-target="#carousel7"
-                          data-slide-to="0"
-                          class="active"
-                        ></li>
-                        <li data-target="#carousel7" data-slide-to="1"></li>
-                        <li data-target="#carousel7" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img
-                            src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                            alt=""
-                            class="img-fluid"
-                          />
-                          <div class="carousel-caption">
-                            <!--
-                    <h3>First slide label</h3>
-
-                    <p>First slide Caption.</p> -->
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img
-                            src="assets/images/projects/IMG_3231.HEIC"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                      </div>
-                      <!-- Controls -->
-                      <a
-                        class="carousel-control-prev"
-                        href="#carousel7"
-                        role="button"
-                        data-slide="prev"
-                      >
-                        <span
-                          class="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a
-                        class="carousel-control-next"
-                        href="#carousel7"
-                        role="button"
-                        data-slide="next"
-                      >
-                        <span
-                          class="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-default"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-                <!-- /.modal-content -->
-              </div>
-              <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-          </td>
-        </tr>
-
-        <tr>
-          <th scope="row">8</th>
-          <td>
-            NIS0014 Conversion of plastic waste to fuel oil via enhanced
-            pyrolysis with hydrogenation
-          </td>
-          <td>
-            Conversion of plastic waste to fuel oil via enhanced pyrolysis with
-            hydrogenation
-          </td>
-          <td>
-            To test their theoretical assumptions, they have made first
-            prototype to test the characteristics of output oil/gas from
-            processed waste plastics. They have studied output and its falling
-            in category of petrol/diesel.
-          </td>
-          <td>
-            Currently, they are working on refining output by adding catalyst in
-            process. And also doing research for efficient output.
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#dModal"
-              >Gallery</a
-            >
-            <!-- Modal -->
-            <div
-              class="modal fade bd-example-modal-lg"
-              id="dModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-              width="80%"
-              role="dialog"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Conversion of Plastic Waste</h4>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-hidden="true"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div id="carousel8" class="carousel slide">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li
-                          data-target="#carousel8"
-                          data-slide-to="0"
-                          class="active"
-                        ></li>
-                        <li data-target="#carousel8" data-slide-to="1"></li>
-                        <li data-target="#carousel8" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img
-                            src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                            alt=""
-                            class="img-fluid"
-                          />
-                          <div class="carousel-caption">
-                            <!--
-                    <h3>First slide label</h3>
-
-                    <p>First slide Caption.</p> -->
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img
-                            src="assets/images/projects/IMG_3231.HEIC"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                      </div>
-                      <!-- Controls -->
-                      <a
-                        class="carousel-control-prev"
-                        href="#carousel8"
-                        role="button"
-                        data-slide="prev"
-                      >
-                        <span
-                          class="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a
-                        class="carousel-control-next"
-                        href="#carousel8"
-                        role="button"
-                        data-slide="next"
-                      >
-                        <span
-                          class="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-default"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-                <!-- /.modal-content -->
-              </div>
-              <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-          </td>
-        </tr>
-
-        <tr>
-          <th scope="row">9</th>
-          <td>
-            NIS0015 Fabrication and parametric evaluation of modified cooling
-            scheme in a bench scale OTEC system.
-          </td>
-          <td>
-            Design and development of a bench scale Ocean Thermal Energy
-            Conversion facility which co-generates power and desalinated water
-            at the same time. This system has a wide scale application in
-            industries and can also be used for desalination of seawater to meet
-            the water demands.
-          </td>
-          <td>
-            A first prototype of this project was developed, which helped as a
-            proof of concept. After that they have fabricated second prototype
-            which is highly precise system, able to get satisfactory result.
-          </td>
-          <td>
-            Currently, they are ready with second Prototype and also further
-            research, analysis & optimization work is going on.
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#eModal"
-              >Gallery</a
-            >
-            <!-- Modal -->
-            <div
-              class="modal fade bd-example-modal-lg"
-              id="eModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-              width="80%"
-              role="dialog"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Fabrication</h4>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-hidden="true"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div id="carousel9" class="carousel slide">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li
-                          data-target="#carousel9"
-                          data-slide-to="0"
-                          class="active"
-                        ></li>
-                        <li data-target="#carousel9" data-slide-to="1"></li>
-                        <li data-target="#carousel9" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img
-                            src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                            alt=""
-                            class="img-fluid"
-                          />
-                          <div class="carousel-caption">
-                            <!--
-                    <h3>First slide label</h3>
-
-                    <p>First slide Caption.</p> -->
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img
-                            src="assets/images/projects/IMG_3231.HEIC"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                      </div>
-                      <!-- Controls -->
-                      <a
-                        class="carousel-control-prev"
-                        href="#carousel9"
-                        role="button"
-                        data-slide="prev"
-                      >
-                        <span
-                          class="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a
-                        class="carousel-control-next"
-                        href="#carousel9"
-                        role="button"
-                        data-slide="next"
-                      >
-                        <span
-                          class="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-default"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-                <!-- /.modal-content -->
-              </div>
-              <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-          </td>
-        </tr>
-
-        <tr>
-          <th scope="row">10</th>
-          <td>
-            NIS0019 Tactical Smart Scope Using Encoder Decoder Based Scene
-            Segmentation
-          </td>
-          <td>
-            Design and development of Tactical Smart Scope based on Scene
-            Segmentation. There aim is to display over the scope human body map,
-            and also surrounding environment and object.
-          </td>
-          <td>
-            To test their concept first they have integrated all major
-            components camera, screen, lens , tried experiment. There were able
-            to do human face recognition, creating dynamic map of human body,
-            able to recognize surrounding objects and environment.
-          </td>
-          <td>
-            Currently they have started working on second prototype, where they
-            are designing stand alone board system, which could be installed
-            directly above the gun.
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#fModal"
-              >Gallery</a
-            >
-            <!-- Modal -->
-            <div
-              class="modal fade bd-example-modal-lg"
-              id="fModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-              width="80%"
-              role="dialog"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Tactical Smart Scope</h4>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-hidden="true"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div id="carousel10" class="carousel slide">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li
-                          data-target="#carousel10"
-                          data-slide-to="0"
-                          class="active"
-                        ></li>
-                        <li data-target="#carousel10" data-slide-to="1"></li>
-                        <li data-target="#carousel10" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img
-                            src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                            alt=""
-                            class="img-fluid"
-                          />
-                          <div class="carousel-caption">
-                            <!--
-                    <h3>First slide label</h3>
-
-                    <p>First slide Caption.</p> -->
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img
-                            src="assets/images/projects/IMG_3231.HEIC"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                      </div>
-                      <!-- Controls -->
-                      <a
-                        class="carousel-control-prev"
-                        href="#carousel10"
-                        role="button"
-                        data-slide="prev"
-                      >
-                        <span
-                          class="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a
-                        class="carousel-control-next"
-                        href="#carousel10"
-                        role="button"
-                        data-slide="next"
-                      >
-                        <span
-                          class="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-default"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-                <!-- /.modal-content -->
-              </div>
-              <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-          </td>
-        </tr>
-
-        <tr>
-          <th scope="row">11</th>
-          <td>NIS0020 Light weight concrete Canoe</td>
-          <td>A light weight concrete canoe of 6 meter</td>
-          <td>
-            They have prepared first prototype by using concrete of density
-            855kg/m3 and the reinforcement carbon fiber. The mold for
-            construction is prepared using styrofoam which is engraved using a
-            CNC machine. First prototype was unsuccessful, it got vertical crack
-            after drying up.
-          </td>
-          <td>
-            Currently they have started to prepare second prototype, they have
-            prepared the reinforcement and completed 70% of the mold
-            construction, they are only left with final construction.
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#gModal"
-              >Gallery</a
-            >
-            <!-- Modal -->
-            <div
-              class="modal fade bd-example-modal-lg"
-              id="gModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-              width="80%"
-              role="dialog"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Lightweight Concrete Canoe</h4>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-hidden="true"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div id="carousel11" class="carousel slide">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li
-                          data-target="#carousel11"
-                          data-slide-to="0"
-                          class="active"
-                        ></li>
-                        <li data-target="#carousel11" data-slide-to="1"></li>
-                        <li data-target="#carousel11" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img
-                            src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                            alt=""
-                            class="img-fluid"
-                          />
-                          <div class="carousel-caption">
-                            <!--
-                    <h3>First slide label</h3>
-
-                    <p>First slide Caption.</p> -->
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img
-                            src="assets/images/projects/IMG_3231.HEIC"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                      </div>
-                      <!-- Controls -->
-                      <a
-                        class="carousel-control-prev"
-                        href="#carousel11"
-                        role="button"
-                        data-slide="prev"
-                      >
-                        <span
-                          class="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a
-                        class="carousel-control-next"
-                        href="#carousel11"
-                        role="button"
-                        data-slide="next"
-                      >
-                        <span
-                          class="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-default"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-                <!-- /.modal-content -->
-              </div>
-              <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-          </td>
-        </tr>
-
-        <tr>
-          <th scope="row">12</th>
-          <td>
-            NIS0021 Self Reconfigurable Modular Mobile Robots for Uneven
-            Terrains
-          </td>
-          <td>
-            The project aims to develop shape-shifting modular reconfigurable
-            robots that undergo autonomous morphogenesis i.e. structure
-            formation based on current environmental situation and task assigned
-            to the robot. The quintessential modular robots are not designed to
-            do any particular task but are a versatile system that develops into
-            various forms to execute a variety of tasks.
-          </td>
-          <td>
-            Followed by a comprehensive CAD and PCB design, a 3D printed
-            prototype of the modular robot was made to test and verify its
-            economic feasibility, technical viability, and real-world
-            deployability. Preliminary testing exhibiting locomotion, magnetic
-            docking, and lifting of a module was carried subsequently.
-          </td>
-          <td>
-            Currently, they plan to work on the self- reconfiguration section,
-            which would result in broadening the deployability of such modules
-            in remote, hostile, and human inaccessible environments. The novel
-            modular robots are equipped with sufficient exteroceptive as well as
-            proprioceptive sensors, required for complete autonomy.
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#hModal"
-              >Gallery</a
-            >
-            <!-- Modal -->
-            <div
-              class="modal fade bd-example-modal-lg"
-              id="hModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-              width="80%"
-              role="dialog"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">
-                      Self Reconfigurable Modular Mobile Robots
-                    </h4>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-hidden="true"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div id="carousel12" class="carousel slide">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li
-                          data-target="#carousel12"
-                          data-slide-to="0"
-                          class="active"
-                        ></li>
-                        <li data-target="#carousel12" data-slide-to="1"></li>
-                        <li data-target="#carousel12" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img
-                            src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                            alt=""
-                            class="img-fluid"
-                          />
-                          <div class="carousel-caption">
-                            <!--
-                    <h3>First slide label</h3>
-
-                    <p>First slide Caption.</p> -->
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img
-                            src="assets/images/projects/IMG_3231.HEIC"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                      </div>
-                      <!-- Controls -->
-                      <a
-                        class="carousel-control-prev"
-                        href="#carousel12"
-                        role="button"
-                        data-slide="prev"
-                      >
-                        <span
-                          class="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a
-                        class="carousel-control-next"
-                        href="#carousel12"
-                        role="button"
-                        data-slide="next"
-                      >
-                        <span
-                          class="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-default"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-                <!-- /.modal-content -->
-              </div>
-              <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-          </td>
-        </tr>
-
-        <tr>
-          <th scope="row">13</th>
-          <td>
-            NIS0022 Design and Development of system module to measure the
-            variation in micrographia and speech for Parkinson's Disease.
-          </td>
-          <td>
-            Design and Development of system module to measure the variation in
-            micrographia and speech for Parkinson's Disease.
-          </td>
-          <td>
-            They have made first prototype by using WACOM and studied the output
-            by drawing various shape.They have run pilot with 3 patients, based
-            on feedback, they have modified application.
-          </td>
-          <td>
-            Currently, they have completed second prototype and software to do
-            testing with more patients
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#iModal"
-              >Gallery</a
-            >
-            <!-- Modal -->
-            <div
-              class="modal fade bd-example-modal-lg"
-              id="iModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-              width="80%"
-              role="dialog"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">
-                      Design and Development System...
-                    </h4>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-hidden="true"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div id="carousel13" class="carousel slide">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li
-                          data-target="#carousel13"
-                          data-slide-to="0"
-                          class="active"
-                        ></li>
-                        <li data-target="#carousel13" data-slide-to="1"></li>
-                        <li data-target="#carousel13" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img
-                            src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                            alt=""
-                            class="img-fluid"
-                          />
-                          <div class="carousel-caption">
-                            <!--
-                    <h3>First slide label</h3>
-
-                    <p>First slide Caption.</p> -->
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img
-                            src="assets/images/projects/IMG_3231.HEIC"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                      </div>
-                      <!-- Controls -->
-                      <a
-                        class="carousel-control-prev"
-                        href="#carousel13"
-                        role="button"
-                        data-slide="prev"
-                      >
-                        <span
-                          class="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a
-                        class="carousel-control-next"
-                        href="#carousel13"
-                        role="button"
-                        data-slide="next"
-                      >
-                        <span
-                          class="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-default"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-                <!-- /.modal-content -->
-              </div>
-              <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-          </td>
-        </tr>
-
-        <tr>
-          <th scope="row">14</th>
-          <td>
-            NIS0023 Non-Invasive Bilirubin Sensor for Continuous Monitoring and
-            Automatic Control of Phototherapy for Infant Jaundice Treatment
-          </td>
-          <td>
-            To design a compact size Non-Invasive Bilirubin sensor which
-            continuously monitors bilirubin level of jaundice in neonates and To
-            automatically start the phototherapy treatment process using Iot
-            technology
-          </td>
-          <td>
-            They did Testing with colour chart ( diff yellow colour chart) - to
-            prove that designed sensor shows variation amony diff level of
-            colour charts. Measured with 75 adults with three different skin
-            tone such as fair, dark and brownish skin tones - To prove how far
-            the designed sensor shows variation among diff skin tones at diff
-            location such as Forehead, ventral palm, ventral wrist , dorsal palm
-            and dorsal wrist. Testing with 10 volunteering neonates - found 50%
-            correlation with existing jaundice meter.
-          </td>
-          <td>
-            Currently, Second Prototype designed and fabricated of non-invasive
-            bilirubin sensor and phototherapy set up is ready. They will be
-            starting pilot run.
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#jModal"
-              >Gallery</a
-            >
-            <!-- Modal -->
-            <div
-              class="modal fade bd-example-modal-lg"
-              id="jModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-              width="80%"
-              role="dialog"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Non-invasive Bilirubin</h4>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-hidden="true"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div id="carousel14" class="carousel slide">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li
-                          data-target="#carousel14"
-                          data-slide-to="0"
-                          class="active"
-                        ></li>
-                        <li data-target="#carousel14" data-slide-to="1"></li>
-                        <li data-target="#carousel14" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img
-                            src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                            alt=""
-                            class="img-fluid"
-                          />
-                          <div class="carousel-caption">
-                            <!--
-                    <h3>First slide label</h3>
-
-                    <p>First slide Caption.</p> -->
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img
-                            src="assets/images/projects/IMG_3231.HEIC"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                      </div>
-                      <!-- Controls -->
-                      <a
-                        class="carousel-control-prev"
-                        href="#carousel14"
-                        role="button"
-                        data-slide="prev"
-                      >
-                        <span
-                          class="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a
-                        class="carousel-control-next"
-                        href="#carousel14"
-                        role="button"
-                        data-slide="next"
-                      >
-                        <span
-                          class="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-default"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-                <!-- /.modal-content -->
-              </div>
-              <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-          </td>
-        </tr>
-
-        <tr>
-          <th scope="row">15</th>
-          <td>
-            NIS0024 Design and developmen of a Crop Quality Moitoring and
-            Classification System using IoT and Blockchain
-          </td>
-          <td>
-            Design and development of a crop quality monitoring system with aim
-            to a) Sensing the various parameters on-field and warehouse to
-            determine the crop quality. b) To update this data into the
-            blockchain. c) To enable a secured transaction between the
-            distributor and the farmer.
-          </td>
-          <td>
-            The sensors were calibrated to obtain better accuracy and first
-            implemented in the horticulture department for testing purposes. For
-            real-time data, 6 bags were taken and seeds sown with the soil
-            containing fertilizers as well. The crop was monitored throughout
-            the growing stage and tomatoes were obtained. The sensor data was
-            recorded and stored in the database for classification of quality.
-            The private ethereum blockchain network was built initially to
-            visualize the working efficiently.
-          </td>
-          <td>
-            Currently they are working on second prototype for big area of
-            agriculture land and setting up their device at various location to
-            understand characteristics of soil at various position, accordingly
-            they will notify to farmer through mobile/web app.
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#kModal"
-              >Gallery</a
-            >
-            <!-- Modal -->
-            <div
-              class="modal fade bd-example-modal-lg"
-              id="kModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-              width="80%"
-              role="dialog"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Crop Quality</h4>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-hidden="true"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div id="carousel15" class="carousel slide">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li
-                          data-target="#carousel15"
-                          data-slide-to="0"
-                          class="active"
-                        ></li>
-                        <li data-target="#carousel15" data-slide-to="1"></li>
-                        <li data-target="#carousel15" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img
-                            src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                            alt=""
-                            class="img-fluid"
-                          />
-                          <div class="carousel-caption">
-                            <!--
-                    <h3>First slide label</h3>
-
-                    <p>First slide Caption.</p> -->
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img
-                            src="assets/images/projects/IMG_3231.HEIC"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                      </div>
-                      <!-- Controls -->
-                      <a
-                        class="carousel-control-prev"
-                        href="#carousel15"
-                        role="button"
-                        data-slide="prev"
-                      >
-                        <span
-                          class="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a
-                        class="carousel-control-next"
-                        href="#carousel15"
-                        role="button"
-                        data-slide="next"
-                      >
-                        <span
-                          class="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-default"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-                <!-- /.modal-content -->
-              </div>
-              <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-          </td>
-        </tr>
-
-        <tr>
-          <th scope="row">16</th>
-          <td>
-            NIS0025 Design of wearablle full duplex Digital Transceiver for
-            underwater optical wireless communication
-          </td>
-          <td>
-            A wearable full-duplex digital transceiver based on blue LED for
-            high speed data communication such as audio/video Under working
-            condition.
-          </td>
-          <td>
-            They have created digital model to test their all ideas, all the
-            simulations have been completed and the results have been verified,
-            analyzed and tabulated.
-          </td>
-          <td>
-            Currently they have procured all the required resources for
-            development of their first prototype to experiment and check the
-            results in real systems.
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#lModal"
-              >Gallery</a
-            >
-            <!-- Modal -->
-            <div
-              class="modal fade bd-example-modal-lg"
-              id="lModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-              width="80%"
-              role="dialog"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Design of wearable</h4>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-hidden="true"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div id="carousel16" class="carousel slide">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li
-                          data-target="#carousel16"
-                          data-slide-to="0"
-                          class="active"
-                        ></li>
-                        <li data-target="#carousel16" data-slide-to="1"></li>
-                        <li data-target="#carousel16" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img
-                            src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                            alt=""
-                            class="img-fluid"
-                          />
-                          <div class="carousel-caption">
-                            <!--
-                    <h3>First slide label</h3>
-
-                    <p>First slide Caption.</p> -->
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img
-                            src="assets/images/projects/IMG_3231.HEIC"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                      </div>
-                      <!-- Controls -->
-                      <a
-                        class="carousel-control-prev"
-                        href="#carousel16"
-                        role="button"
-                        data-slide="prev"
-                      >
-                        <span
-                          class="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a
-                        class="carousel-control-next"
-                        href="#carousel16"
-                        role="button"
-                        data-slide="next"
-                      >
-                        <span
-                          class="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-default"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-                <!-- /.modal-content -->
-              </div>
-              <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-          </td>
-        </tr>
-
-        <tr>
-          <th scope="row">17</th>
-          <td>NIS0028 Faby</td>
-          <td>
-            A mobile robot, which could autonomously move around premises. Which
-            should be able to supervise and control premises over the network.
-          </td>
-          <td>
-            They have fabricated first prototype with the features of
-            controlling premises over the network and do autonomous movement
-            around. and also added feature to talk back, to give tour to guests.
-          </td>
-          <td>
-            Currently they are working on second prototype improvising,
-            autonomous mode of robot, and also adding with feature to control
-            over web and mobile application.
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#mModal"
-              >Gallery</a
-            >
-            <!-- Modal -->
-            <div
-              class="modal fade bd-example-modal-lg"
-              id="mModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-              width="80%"
-              role="dialog"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Faby</h4>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-hidden="true"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div id="carousel17" class="carousel slide">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li
-                          data-target="#carousel17"
-                          data-slide-to="0"
-                          class="active"
-                        ></li>
-                        <li data-target="#carousel17" data-slide-to="1"></li>
-                        <li data-target="#carousel17" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img
-                            src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                            alt=""
-                            class="img-fluid"
-                          />
-                          <div class="carousel-caption">
-                            <!--
-                    <h3>First slide label</h3>
-
-                    <p>First slide Caption.</p> -->
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img
-                            src="assets/images/projects/IMG_3231.HEIC"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                      </div>
-                      <!-- Controls -->
-                      <a
-                        class="carousel-control-prev"
-                        href="#carousel17"
-                        role="button"
-                        data-slide="prev"
-                      >
-                        <span
-                          class="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a
-                        class="carousel-control-next"
-                        href="#carousel17"
-                        role="button"
-                        data-slide="next"
-                      >
-                        <span
-                          class="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-default"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-                <!-- /.modal-content -->
-              </div>
-              <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-          </td>
-        </tr>
-
-        <tr>
-          <th scope="row">18</th>
-          <td>NIS0029 Fablab UGV</td>
-          <td>An Unmanned Ground Vehicle</td>
-          <td>
-            First prototype, they mainly work on movement of UGV based on
-            geolocation and also sensor integration to avoid obstacles.
-          </td>
-          <td>
-            Currently, They are developing second version of their prototype
-            with integration of industrial grade components for better
-            performance.
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#nModal"
-              >Gallery</a
-            >
-            <!-- Modal -->
-            <div
-              class="modal fade bd-example-modal-lg"
-              id="nModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-              width="80%"
-              role="dialog"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">FabLab UGV</h4>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-hidden="true"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div id="carousel18" class="carousel slide">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li
-                          data-target="#carousel18"
-                          data-slide-to="0"
-                          class="active"
-                        ></li>
-                        <li data-target="#carousel18" data-slide-to="1"></li>
-                        <li data-target="#carousel18" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img
-                            src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                            alt=""
-                            class="img-fluid"
-                          />
-                          <div class="carousel-caption">
-                            <!--
-                    <h3>First slide label</h3>
-
-                    <p>First slide Caption.</p> -->
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img
-                            src="assets/images/projects/IMG_3231.HEIC"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                      </div>
-                      <!-- Controls -->
-                      <a
-                        class="carousel-control-prev"
-                        href="#carousel18"
-                        role="button"
-                        data-slide="prev"
-                      >
-                        <span
-                          class="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a
-                        class="carousel-control-next"
-                        href="#carousel18"
-                        role="button"
-                        data-slide="next"
-                      >
-                        <span
-                          class="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-default"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-                <!-- /.modal-content -->
-              </div>
-              <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-          </td>
-        </tr>
-
-        <tr>
-          <th scope="row">19</th>
-          <td>
-            NIS0033 Design Development and Implementation of parrallel
-            drivetrain for 3 wheelers
-          </td>
-          <td>
-            Design Development and Implementation of parallel drivetrain for 3
-            wheelers
-          </td>
-          <td>
-            To test their concept they had created digital model and run all the
-            simulation to study the performance. Results were convincing based
-            on that they have finalised all components for their first
-            prototype.
-          </td>
-          <td>
-            Currently, They have procured all the required components and also
-            have finished all CAD designs of mechanical parts and PCB board
-            designs.
-          </td>
-          <td>
-            <a class="btn btn-success" data-toggle="modal" href="#oModal"
-              >Gallery</a
-            >
-            <!-- Modal -->
-            <div
-              class="modal fade bd-example-modal-lg"
-              id="oModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="myModalLabel"
-              aria-hidden="true"
-              width="80%"
-              role="dialog"
-            >
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Paralle 3-Wheelers</h4>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-hidden="true"
-                    >
-                      &times;
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div id="carousel19" class="carousel slide carousel-fade">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li
-                          data-target="#carousel19"
-                          data-slide-to="0"
-                          class="active"
-                        ></li>
-                        <li data-target="#19" data-slide-to="1"></li>
-                        <li data-target="#19" data-slide-to="2"></li>
-                      </ol>
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner">
-                        <div class="item active">
-                          <img
-                            src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                            alt=""
-                            class="img-fluid"
-                          />
-                          <div class="carousel-caption">
-                            <!--
-                    <h3>First slide label</h3>
-
-                    <p>First slide Caption.</p> -->
-                          </div>
-                        </div>
-                        <div class="item">
-                          <img
-                            src="assets/images/projects/IMG_3231.HEIC"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                      </div>
-                      <!-- Controls -->
-                      <a
-                        class="carousel-control-prev"
-                        href="#carousel19"
-                        role="button"
-                        data-slide="prev"
-                      >
-                        <span
-                          class="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a
-                        class="carousel-control-next"
-                        href="#carousel19"
-                        role="button"
-                        data-slide="next"
-                      >
-                        <span
-                          class="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-default"
-                      data-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-                <!-- /.modal-content -->
-              </div>
-              <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-          </td>
-        </tr>
-      </tbody>
-    </table>
-<!--Working modal-->
-    <div
-      class="modal fade bd-example-modal-lg"
-      id="myModal"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">×</span>
-            </button>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
-          <div class="modal-body">
-            <div
-              id="carouselExample"
-              class="carousel slide"
-              data-ride="carousel"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                    src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="assets/images/projects/IMG_20180728_172308866_LL.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-              </div>
-              <a
-                class="carousel-control-prev"
-                href="#carouselExample"
-                role="button"
-                data-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a
-                class="carousel-control-next"
-                href="#carouselExample"
-                role="button"
-                data-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
-          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- /.modal -->
+  <!-- /.modal -->
+  <!-- Rizel -->
+  <div class="modal fade bd-example-modal-lg" id="zModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel1" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- Modal Ends Here -->
+  <!-- Smart Attendance System -->
+  <div class="modal fade bd-example-modal-lg" id="rModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel2" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ends Here -->
+  <!-- EV Retrofitting -->
+  <div class="modal fade bd-example-modal-lg" id="xModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel3" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ends Here -->
+  <!-- Bio 3D Printer -->
+  <div class="modal fade bd-example-modal-lg" id="aModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel4" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel4" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel4" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ends Here -->
+  <!-- Metal 3D Printer -->
+  <div class="modal fade bd-example-modal-lg" id="bModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel5" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel5" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel5" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ends Here -->
+  <!-- MetaWear -->
+  <div class="modal fade bd-example-modal-lg" id="cModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel6" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel6" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel6" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ends Here -->
+  <!-- Plastic Waste -->
+  <div class="modal fade bd-example-modal-lg" id="dModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel7" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel7" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel7" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ends Here -->
+  <!-- OTEC System -->
+  <div class="modal fade bd-example-modal-lg" id="eModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel8" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel8" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel8" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ends Here -->
+  <!-- Tactical Smart Scope -->
+  <div class="modal fade bd-example-modal-lg" id="fModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel9" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel9" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel9" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ends Here -->
+  <!-- Lightweight Canoe -->
+  <div class="modal fade bd-example-modal-lg" id="gModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel10" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel10" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel10" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ends Here -->
+  <!-- Modular Mobile Robots -->
+  <div class="modal fade bd-example-modal-lg" id="hModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel11" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel11" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel11" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ends Here -->
+  <!-- Parkinsons Disease -->
+  <div class="modal fade bd-example-modal-lg" id="iModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel12" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel12" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel12" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ends Here -->
+  <!-- Bilirubin Sensor -->
+  <div class="modal fade bd-example-modal-lg" id="jModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel13" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel13" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel13" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ends Here -->
+  <!-- Crop Quality -->
+  <div class="modal fade bd-example-modal-lg" id="kModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel14" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel14" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel14" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ends Here -->
+  <!-- Digital Transceiver -->
+  <div class="modal fade bd-example-modal-lg" id="lModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel15" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel15" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel15" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ends Here -->
+  <!-- Faby -->
+  <div class="modal fade bd-example-modal-lg" id="mModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel16" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel16" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel16" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ends Here -->
+  <!-- FABLAB UGV -->
+  <div class="modal fade bd-example-modal-lg" id="nModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel17" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel17" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel17" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ends Here -->
+  <!-- Drivetrain -->
+  <div class="modal fade bd-example-modal-lg" id="oModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel18" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/projects/IMG_20180728_172308866_LL.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel18" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel18" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Ends Here -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
